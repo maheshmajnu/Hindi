@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e3d65e191ce7a41b55f0e006c12078, type: 3}
+  m_Name: CraftableList
+  m_EditorClassIdentifier: 
+  items:
+  - name: Fire
+    icon: {fileID: 0}
+    craftedItemPrefab: {fileID: 100000, guid: b99a0a5998b2736429fd2a2fd1d01c5e, type: 3}
+    craftedItemSO: {fileID: 11400000, guid: 3914dd7aa9ce12744b3b982dfdbfbd62, type: 2}
+    ingredients:
+    - Item: {fileID: 11400000, guid: aeae2b2a13e5fe24891e973e80d0d79e, type: 2}
+    - Item: {fileID: 11400000, guid: 9ec40e3d4f677094eb7a002d7edd8503, type: 2}

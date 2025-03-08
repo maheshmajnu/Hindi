@@ -75,10 +75,19 @@ private void Awake()
         targetNormalizedTime = -1f; // Reset after use
     }
 }
+    private bool isMuted = false;
 
-public void _Jump_To1(float value)
+    public void ToggleAudio()
+    {
+        isMuted = !isMuted;
+        AudioListener.volume = isMuted ? 0f : 1f;
+        Debug.Log("Audio Muted: " + isMuted);
+    }
+
+    public void _Jump_To1(float value)
 {
-    RestartSceneWithKeyframe(value);
+        ToggleAudio();
+        RestartSceneWithKeyframe(value);
 }
 
 private void RestartSceneWithKeyframe(float normalizedTime)

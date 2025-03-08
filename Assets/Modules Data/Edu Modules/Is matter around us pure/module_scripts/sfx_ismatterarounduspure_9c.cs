@@ -111,7 +111,19 @@ public class sfx_ismatterarounduspure_9c : MonoBehaviour
     private void EndGameDelay()
     {
         miniGame.EndMiniGame();
+        StartCoroutine(DelayInventory());
     }
+
+
+    IEnumerator DelayInventory()
+    {
+
+        yield return new WaitForSeconds(1);
+        InventoryManager.Instance.inventryStatic.SetActive(false);
+
+    }
+
+
 
     public TargetController miniGame;
 
@@ -128,6 +140,10 @@ public class sfx_ismatterarounduspure_9c : MonoBehaviour
         SaveProgress(1, 0, 2);
 
     }
+
+
+
+
     IEnumerator DelayLv3MiniGameStart()
     {
         yield return new WaitForSeconds(1);

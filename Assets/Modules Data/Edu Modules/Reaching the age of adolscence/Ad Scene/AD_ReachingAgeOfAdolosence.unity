@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -155,10 +155,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1497772586}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 531.2368, y: 193}
-  m_SizeDelta: {x: 475.2037, y: 83.5827}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 362, y: -15}
+  m_SizeDelta: {x: 475.20374, y: 83.5827}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978130
 MonoBehaviour:
@@ -180,11 +180,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Males consist of XY chromosomes and females consist of XX chromosomes as
-    sex from a female parent who is having two X-chromosomes
+  m_text: "\u0928\u0930 \u092E\u0947\u0902 XY \u0917\u0941\u0923\u0938\u0942\u0924\u094D\u0930
+    \u0939\u094B\u0924\u0947 \u0939\u0948\u0902 \u0914\u0930 \u092E\u093E\u0926\u093E
+    \u092E\u0947\u0902 XX \u0917\u0941\u0923\u0938\u0942\u0924\u094D\u0930 \u0939\u094B\u0924\u0947
+    \u0939\u0948\u0902, \u0915\u094D\u092F\u094B\u0902\u0915\u093F \u092E\u093E\u0926\u093E
+    \u091C\u0928\u0915 \u092E\u0947\u0902 \u0926\u094B X-\u0917\u0941\u0923\u0938\u0942\u0924\u094D\u0930
+    \u0939\u094B\u0924\u0947 \u0939\u0948\u0902"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -208,8 +212,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 41.4
+  m_fontSizeBase: 41.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -244,7 +248,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -532.3956, w: 0}
+  m_margin: {x: 0, y: 0, z: -323.65637, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -290,9 +294,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1594355956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 260, y: 149}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 104, y: -27}
   m_SizeDelta: {x: 193.2943, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1382309
@@ -315,11 +319,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: one pair of chromosomes is sex chromosome which determines the sex of an
-    individual person
+  m_text: "\u0917\u0941\u0923\u0938\u0942\u0924\u094D\u0930\u094B\u0902 \u0915\u093E
+    \u090F\u0915 \u091C\u094B\u0921\u093C\u093E \u0932\u093F\u0902\u0917 \u0917\u0941\u0923\u0938\u0942\u0924\u094D\u0930
+    \u0939\u094B\u0924\u093E \u0939\u0948 \u091C\u094B \u0915\u093F\u0938\u0940 \u0935\u094D\u092F\u0915\u094D\u0924\u093F
+    \u0915\u0947 \u0932\u093F\u0902\u0917 \u0915\u093E \u0928\u093F\u0930\u094D\u0927\u093E\u0930\u0923
+    \u0915\u0930\u0924\u093E \u0939\u0948"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -343,8 +350,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 33.7
+  m_fontSizeBase: 33.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -379,7 +386,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -532.3956, w: 0}
+  m_margin: {x: 0, y: 0, z: -530.6959, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -457,9 +464,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 71842732}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 279.57904, y: 122.52492}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 123, y: -53}
   m_SizeDelta: {x: 203.7697, y: 60.4375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &13599669
@@ -532,10 +539,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 466804304}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 377.80817, y: 971.4742}
-  m_SizeDelta: {x: 273.1734, y: 48.7715}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 180.8949, y: 66}
+  m_SizeDelta: {x: 250.5858, y: 48.7715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &16966159
 MonoBehaviour:
@@ -608,9 +615,9 @@ RectTransform:
   - {fileID: 1494747248}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &18395600
@@ -690,9 +697,9 @@ RectTransform:
   - {fileID: 1992393665}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &41009564
@@ -1194,9 +1201,9 @@ RectTransform:
   - {fileID: 314626612}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &73014682
@@ -1343,7 +1350,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 538, y: 1005}
+  m_AnchoredPosition: {x: 450, y: 52}
   m_SizeDelta: {x: 556.256, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &85921068
@@ -1366,10 +1373,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Male musculature and body shape
+  m_text: "\u092A\u0941\u0930\u0941\u0937 \u0915\u0940 \u092E\u093E\u0902\u0938\u092A\u0947\u0936\u093F\u092F\u093E\u0901
+    \u0914\u0930 \u0936\u0930\u0940\u0930 \u0915\u093E \u0906\u0915\u093E\u0930"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1393,8 +1401,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 44.9
+  m_fontSizeBase: 44.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1622,9 +1630,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 235369213}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 588.0352, y: 971.82855}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 418, y: 64}
   m_SizeDelta: {x: 448.3625, y: 48.4762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &106035894
@@ -2656,10 +2664,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 270620265}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 523.12024, y: 974.1798}
-  m_SizeDelta: {x: 394.27, y: 46.5168}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 184.73488, y: 69}
+  m_SizeDelta: {x: 255.7157, y: 46.5168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &166497623
 MonoBehaviour:
@@ -2816,7 +2824,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 595, y: 1027}
+  m_AnchoredPosition: {x: 476, y: 63}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &170884992
@@ -2839,10 +2847,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Sex determination in human being '
+  m_text: "\u092E\u093E\u0928\u0935 \u092E\u0947\u0902 \u0932\u093F\u0902\u0917 \u0928\u093F\u0930\u094D\u0927\u093E\u0930\u0923"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2866,8 +2874,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 46.5
+  m_fontSizeBase: 46.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3147,9 +3155,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1222109974}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 281, y: 92}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 141, y: -69}
   m_SizeDelta: {x: 193.2943, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &195048244
@@ -3172,10 +3180,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' the estrogens and progesterone'
+  m_text: "\u090F\u0938\u094D\u091F\u094D\u0930\u094B\u091C\u0947\u0928 \u0914\u0930
+    \u092A\u094D\u0930\u094B\u091C\u0947\u0938\u094D\u091F\u0947\u0930\u094B\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3199,8 +3208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 44.1
+  m_fontSizeBase: 44.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3306,10 +3315,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nervous system
+  m_text: "\u0924\u0902\u0924\u094D\u0930\u093F\u0915\u093E \u0924\u0902\u0924\u094D\u0930"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3440,10 +3449,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Adolescent changes
+  m_text: "\u0915\u093F\u0936\u094B\u0930\u093E\u0935\u0938\u094D\u0925\u093E \u092E\u0947\u0902
+    \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3694,9 +3704,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 821761833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 307, y: 95}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 187, y: -84}
   m_SizeDelta: {x: 193.2943, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &217626712
@@ -3719,12 +3729,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' Estrogen
-
-'
+  m_text: "\u090F\u0938\u094D\u091F\u094D\u0930\u094B\u091C\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3748,8 +3756,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 37.5
+  m_fontSizeBase: 37.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4051,9 +4059,9 @@ RectTransform:
   - {fileID: 1004903188}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &235369212
@@ -4088,9 +4096,9 @@ RectTransform:
   - {fileID: 325664588}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &238150484
@@ -4509,7 +4517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 608, y: 1022}
+  m_AnchoredPosition: {x: 567, y: 69}
   m_SizeDelta: {x: 661.7295, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &255458719
@@ -4532,10 +4540,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Secondary sexual characters '
+  m_text: "\u092E\u093E\u0927\u094D\u092F\u092E\u093F\u0915 \u092F\u094C\u0928 \u0932\u0915\u094D\u0937\u0923"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4559,8 +4567,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 52.2
+  m_fontSizeBase: 52.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5088,9 +5096,9 @@ RectTransform:
   - {fileID: 2116951605}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &277636632
@@ -5125,9 +5133,9 @@ RectTransform:
   - {fileID: 322355036}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &289713386
@@ -5164,9 +5172,9 @@ RectTransform:
   - {fileID: 790844013}
   m_Father: {fileID: 1519414143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: -76}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -150, y: 149}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &289713388
@@ -5760,9 +5768,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 775157535}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 525.06445, y: 118.41084}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 368, y: -53}
   m_SizeDelta: {x: 408.3409, y: 57.0091}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &305243696
@@ -5835,9 +5843,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 71842732}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 309, y: 115}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 156, y: -61}
   m_SizeDelta: {x: 193.2943, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &314626613
@@ -5860,10 +5868,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: testosterone
+  m_text: "\u091F\u0947\u0938\u094D\u091F\u094B\u0938\u094D\u091F\u0947\u0930\u094B\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5887,8 +5895,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 42.6
+  m_fontSizeBase: 42.6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5969,10 +5977,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1497772586}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 983.36884, y: 176.52707}
-  m_SizeDelta: {x: 790.261, y: 105.4392}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 822, y: -27.161003}
+  m_SizeDelta: {x: 790.261, y: 86.1384}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &321351753
 MonoBehaviour:
@@ -6046,7 +6054,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 609, y: 1022}
+  m_AnchoredPosition: {x: 516, y: 56}
   m_SizeDelta: {x: 571.271, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &322355037
@@ -6069,10 +6077,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Testosterone is involved in
+  m_text: "\u091F\u0947\u0938\u094D\u091F\u094B\u0938\u094D\u091F\u0947\u0930\u094B\u0928
+    \u0907\u0938\u092E\u0947\u0902 \u0936\u093E\u092E\u093F\u0932 \u0939\u0948"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6096,8 +6105,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 40.4
+  m_fontSizeBase: 40.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6180,7 +6189,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 486, y: 1010}
+  m_AnchoredPosition: {x: 399, y: 64}
   m_SizeDelta: {x: 556.256, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &325664589
@@ -6203,10 +6212,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Underarm (axillary) hair growth visible
+  m_text: "\u092C\u0917\u0932 (\u0905\u0915\u094D\u0937\u0940\u092F) \u092E\u0947\u0902
+    \u092C\u093E\u0932 \u0909\u0917\u0928\u093E \u0926\u093F\u0916\u093E\u0908 \u0926\u0947\u0928\u093E"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6230,8 +6240,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 49.5
+  m_fontSizeBase: 49.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8048,9 +8058,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1479963691}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 393.44128, y: 967.96375}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 222, y: 68}
   m_SizeDelta: {x: 286.2009, y: 51.6969}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &404113641
@@ -9388,9 +9398,9 @@ RectTransform:
   - {fileID: 1527942806}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &469279676
@@ -9771,7 +9781,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 650, y: 1022}
+  m_AnchoredPosition: {x: 541, y: 51}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &498946335
@@ -9794,10 +9804,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reproductive phases in females
+  m_text: "\u092E\u0939\u093F\u0932\u093E\u0913\u0902 \u092E\u0947\u0902 \u092A\u094D\u0930\u091C\u0928\u0928
+    \u091A\u0930\u0923"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9821,8 +9832,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 47.3
+  m_fontSizeBase: 47.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10264,10 +10275,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Urinary system
+  m_text: "\u092E\u0942\u0924\u094D\u0930 \u092A\u094D\u0930\u0923\u093E\u0932\u0940"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10543,10 +10554,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1049891757}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 335.10672, y: 966.9673}
-  m_SizeDelta: {x: 237.5887, y: 52.5273}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 156, y: 63}
+  m_SizeDelta: {x: 237.58868, y: 52.5273}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &524420335
 MonoBehaviour:
@@ -10751,10 +10762,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 940379403}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 291.2031, y: 123.43065}
-  m_SizeDelta: {x: 213.4564, y: 61.1923}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 135, y: -53}
+  m_SizeDelta: {x: 213.45642, y: 61.1923}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &532211469
 MonoBehaviour:
@@ -11109,9 +11120,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1227376572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 323.89795, y: 106}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 197, y: -78}
   m_SizeDelta: {x: 193.2943, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &558077924
@@ -11134,10 +11145,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: androgens
+  m_text: "\u090F\u0923\u094D\u0921\u094D\u0930\u094B\u091C\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11161,8 +11172,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 40.5
+  m_fontSizeBase: 40.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11376,9 +11387,9 @@ RectTransform:
   - {fileID: 1111280264}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &569299803
@@ -11546,9 +11557,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1581850004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 364.9203, y: 973.12274}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 193, y: 68}
   m_SizeDelta: {x: 262.4333, y: 47.3977}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572280706
@@ -12033,9 +12044,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 18395599}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 600.90344, y: 961.1119}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 422, y: 52}
   m_SizeDelta: {x: 459.086, y: 57.4068}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &591224593
@@ -12623,9 +12634,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 775157535}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 283, y: 106}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 180, y: -58}
   m_SizeDelta: {x: 193.2943, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &637483365
@@ -12648,10 +12659,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Prothoracicotropic Hormone
+  m_text: "\u092A\u094D\u0930\u094B\u0925\u094B\u0930\u093E\u0938\u093F\u0915\u094B\u091F\u094D\u0930\u094B\u092A\u093F\u0915
+    \u0939\u093E\u0930\u094D\u092E\u094B\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12675,8 +12687,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13565,9 +13577,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1252142027}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 259.96344, y: 955.7588}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 82, y: 45}
   m_SizeDelta: {x: 174.9694, y: 61.8677}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &702055533
@@ -13674,9 +13686,9 @@ RectTransform:
   - {fileID: 1541161496}
   m_Father: {fileID: 344609329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: -140}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -150, y: 85}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &724668199
@@ -14191,10 +14203,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1976176526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 228.01883, y: 116.87784}
-  m_SizeDelta: {x: 160.8029, y: 55.7316}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 74, y: -53}
+  m_SizeDelta: {x: 160.8029, y: 55.731598}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &756168093
 MonoBehaviour:
@@ -15039,9 +15051,9 @@ RectTransform:
   - {fileID: 1090169593}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &775157534
@@ -15076,9 +15088,9 @@ RectTransform:
   - {fileID: 637483364}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &775801834
@@ -15153,9 +15165,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2083205607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 504.2153, y: 976.32007}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 334, y: 66}
   m_SizeDelta: {x: 378.5128, y: 44.7333}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &782729503
@@ -15459,10 +15471,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Primary sexual changes
+  m_text: "\u092A\u094D\u0930\u093E\u0925\u092E\u093F\u0915 \u092F\u094C\u0928 \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15568,10 +15580,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1527544582}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 605.2192, y: 978.735}
-  m_SizeDelta: {x: 462.6826, y: 42.7208}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 241.76936, y: 69}
+  m_SizeDelta: {x: 305.8237, y: 42.7208}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &797602324
 MonoBehaviour:
@@ -15645,7 +15657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 729, y: 1009}
+  m_AnchoredPosition: {x: 177, y: 51}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &802094698
@@ -15668,10 +15680,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thyroid gland
+  m_text: "\u0925\u093E\u0907\u0930\u0949\u092F\u0921 \u0917\u094D\u0930\u0902\u0925\u093F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15695,8 +15707,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 42.9
+  m_fontSizeBase: 42.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -15731,7 +15743,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -77.72882, w: 0}
+  m_margin: {x: 209.47118, y: 0, z: 162.89697, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -15778,9 +15790,9 @@ RectTransform:
   - {fileID: 2141529380}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &803995438
@@ -16177,9 +16189,9 @@ RectTransform:
   - {fileID: 217626711}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &829096441
@@ -16420,10 +16432,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 821761833}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 240.81369, y: 111.40523}
-  m_SizeDelta: {x: 171.4652, y: 51.1711}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 80, y: -63}
+  m_SizeDelta: {x: 171.4652, y: 51.171097}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &834257582
 MonoBehaviour:
@@ -16634,7 +16646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 522, y: 1007}
+  m_AnchoredPosition: {x: 406, y: 61}
   m_SizeDelta: {x: 556.256, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854628287
@@ -16657,10 +16669,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Change in height
+  m_text: "\u090A\u0902\u091A\u093E\u0908 \u092E\u0947\u0902 \u092C\u0926\u0932\u093E\u0935"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16684,8 +16696,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 61.4
+  m_fontSizeBase: 61.4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -17740,9 +17752,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1227376572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 270.26025, y: 116.77373}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 107, y: -63}
   m_SizeDelta: {x: 196.004, y: 55.6448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &889624757
@@ -18086,10 +18098,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 277636633}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 513.514, y: 976.8723}
-  m_SizeDelta: {x: 386.2615, y: 44.273}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 250.28894, y: 74}
+  m_SizeDelta: {x: 310.6689, y: 44.273}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &902277040
 MonoBehaviour:
@@ -18163,9 +18175,9 @@ RectTransform:
   - {fileID: 932263929}
   m_Father: {fileID: 1519414143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: -76}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 150, y: 149}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &903685440
@@ -18306,9 +18318,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 940379403}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 323.89795, y: 96}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 177, y: -72}
   m_SizeDelta: {x: 193.2943, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &926438978
@@ -18331,10 +18343,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menopause
+  m_text: "\u0930\u091C\u094B\u0928\u093F\u0935\u0943\u0924\u094D\u0924\u093F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18358,8 +18370,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 43
+  m_fontSizeBase: 43
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -18870,10 +18882,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Secondary sexual changes
+  m_text: "\u092E\u093E\u0927\u094D\u092F\u092E\u093F\u0915 \u092F\u094C\u0928 \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19126,7 +19138,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 670, y: 1021}
+  m_AnchoredPosition: {x: 613, y: 70}
   m_SizeDelta: {x: 661.7295, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &936578400
@@ -19149,10 +19161,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Functional changes in the organs
+  m_text: "\u0905\u0902\u0917\u094B\u0902 \u092E\u0947\u0902 \u0915\u093E\u0930\u094D\u092F\u093E\u0924\u094D\u092E\u0915
+    \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19176,8 +19189,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 54.5
+  m_fontSizeBase: 54.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -19258,9 +19271,9 @@ RectTransform:
   - {fileID: 926438977}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &943487375
@@ -19739,9 +19752,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1187152315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 596.1602, y: 976.48645}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 420, y: 69}
   m_SizeDelta: {x: 455.1334, y: 44.5946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &975470096
@@ -19849,7 +19862,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 632, y: 1009}
+  m_AnchoredPosition: {x: 535, y: 60}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &990812667
@@ -19872,10 +19885,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pancreatic gland
+  m_text: "\u0905\u0917\u094D\u0928\u094D\u092F\u093E\u0936\u092F \u0917\u094D\u0930\u0902\u0925\u093F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19899,8 +19912,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 46.1
+  m_fontSizeBase: 46.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -20608,9 +20621,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 231063166}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 323.89795, y: 97}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 218, y: -90}
   m_SizeDelta: {x: 193.2943, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004903189
@@ -20633,10 +20646,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Testosterone '
+  m_text: "\u091F\u0947\u0938\u094D\u091F\u094B\u0938\u094D\u091F\u0947\u0930\u094B\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20660,8 +20673,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 35.8
+  m_fontSizeBase: 35.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -21456,9 +21469,9 @@ RectTransform:
   - {fileID: 206109431}
   m_Father: {fileID: 1519414143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: -140}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -150, y: 85}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1025326495
@@ -21587,9 +21600,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1674849939}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 419.0377, y: 978.7605}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 248, y: 71}
   m_SizeDelta: {x: 307.5313, y: 42.6996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1029898681
@@ -22095,9 +22108,9 @@ RectTransform:
   - {fileID: 990812666}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1054985375
@@ -22299,7 +22312,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 582, y: 1016}
+  m_AnchoredPosition: {x: 476, y: 45}
   m_SizeDelta: {x: 661.7295, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090169594
@@ -22322,10 +22335,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Body shape, Fat distribution and body composition
+  m_text: "\u0936\u0930\u0940\u0930 \u0915\u093E \u0906\u0915\u093E\u0930, \u0935\u0938\u093E
+    \u0935\u093F\u0924\u0930\u0923 \u0914\u0930 \u0936\u093E\u0930\u0940\u0930\u093F\u0915
+    \u0938\u0902\u0930\u091A\u0928\u093E"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22349,8 +22364,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 53.7
+  m_fontSizeBase: 53.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -22748,9 +22763,9 @@ RectTransform:
   - {fileID: 1418836095}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1105200256
@@ -22819,7 +22834,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 659, y: 1009}
+  m_AnchoredPosition: {x: 551, y: 60}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1111280265
@@ -22842,10 +22857,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Adrenal gland '
+  m_text: "\u090F\u0921\u094D\u0930\u093F\u0928\u0932 \u0917\u094D\u0930\u0902\u0925\u093F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22869,8 +22884,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -23502,9 +23517,9 @@ RectTransform:
   - {fileID: 195545564}
   m_Father: {fileID: 344609329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: -140}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 150, y: 85}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1157927574
@@ -23633,10 +23648,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1401073328}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 578.8247, y: 978.43274}
-  m_SizeDelta: {x: 440.6873, y: 42.9727}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 172.07832, y: 72}
+  m_SizeDelta: {x: 242.4193, y: 42.9727}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1158033034
 MonoBehaviour:
@@ -23972,10 +23987,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Endocrine system '
+  m_text: "\u0905\u0902\u0924: \u0938\u094D\u0930\u093E\u0935\u0940 \u092A\u094D\u0930\u0923\u093E\u0932\u0940"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24226,9 +24241,9 @@ RectTransform:
   - {fileID: 498946334}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1188348130
@@ -24669,9 +24684,9 @@ RectTransform:
   - {fileID: 1359508631}
   m_Father: {fileID: 1519414143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: -140}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 150, y: 85}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1204761298
@@ -25113,9 +25128,9 @@ RectTransform:
   - {fileID: 195048243}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1227376571
@@ -25150,9 +25165,9 @@ RectTransform:
   - {fileID: 558077923}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1228944558
@@ -25594,9 +25609,9 @@ RectTransform:
   - {fileID: 1908218251}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1282257738
@@ -25631,9 +25646,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 562436536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 301.82678, y: 967.1825}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 129, y: 63}
   m_SizeDelta: {x: 209.8555, y: 52.3479}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1282257740
@@ -25958,7 +25973,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 542, y: 1020}
+  m_AnchoredPosition: {x: 450, y: 59}
   m_SizeDelta: {x: 556.256, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1317359420
@@ -25981,10 +25996,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Structural Changes in the body of a male
+  m_text: "\u092A\u0941\u0930\u0941\u0937 \u0915\u0947 \u0936\u0930\u0940\u0930 \u092E\u0947\u0902
+    \u0938\u0902\u0930\u091A\u0928\u093E\u0924\u094D\u092E\u0915 \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26008,8 +26024,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 51.1
+  m_fontSizeBase: 51.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -26516,10 +26532,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Obese changes
+  m_text: "\u092E\u094B\u091F\u093E\u092A\u093E \u092C\u0926\u0932 \u091C\u093E\u0924\u093E
+    \u0939\u0948"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27276,7 +27293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 496, y: 1026}
+  m_AnchoredPosition: {x: 414, y: 34}
   m_SizeDelta: {x: 571.271, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1382967847
@@ -27299,10 +27316,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Expression of secondary sexual character ls in males and females
+  m_text: "\u092A\u0941\u0930\u0941\u0937\u094B\u0902 \u0914\u0930 \u092E\u0939\u093F\u0932\u093E\u0913\u0902
+    \u092E\u0947\u0902 \u0926\u094D\u0935\u093F\u0924\u0940\u092F\u0915 \u092F\u094C\u0928
+    \u0932\u0915\u094D\u0937\u0923 \u0915\u0940 \u0905\u092D\u093F\u0935\u094D\u092F\u0915\u094D\u0924\u093F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27326,8 +27345,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 44.3
+  m_fontSizeBase: 44.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -27362,7 +27381,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -77.72882, w: 0}
+  m_margin: {x: 0, y: 0, z: -225.84167, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -27542,9 +27561,9 @@ RectTransform:
   - {fileID: 170884991}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1412384932
@@ -27778,7 +27797,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 513, y: 1013}
+  m_AnchoredPosition: {x: 469, y: 62}
   m_SizeDelta: {x: 556.256, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1418836096
@@ -27801,10 +27820,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Structural changes in a body of a female
+  m_text: "\u092E\u0939\u093F\u0932\u093E \u0915\u0947 \u0936\u0930\u0940\u0930 \u092E\u0947\u0902
+    \u0938\u0902\u0930\u091A\u0928\u093E\u0924\u094D\u092E\u0915 \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -27828,8 +27848,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 50.1
+  m_fontSizeBase: 50.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -28611,10 +28631,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1222109974}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 609.0324, y: 114.29532}
-  m_SizeDelta: {x: 478.3142, y: 53.5795}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 325.89822, y: -58}
+  m_SizeDelta: {x: 372.3961, y: 53.5795}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464350470
 MonoBehaviour:
@@ -29052,9 +29072,9 @@ RectTransform:
   - {fileID: 2082336551}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1491985040
@@ -29089,9 +29109,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1976176526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 291, y: 104}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 156, y: -53}
   m_SizeDelta: {x: 193.2943, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491985042
@@ -29114,10 +29134,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menarche
+  m_text: "\u0930\u091C\u094B\u0926\u0930\u094D\u0936\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29141,8 +29161,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 46.3
+  m_fontSizeBase: 46.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -29225,7 +29245,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 514, y: 1031}
+  m_AnchoredPosition: {x: 421.99994, y: 51.999996}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1494747249
@@ -29248,10 +29268,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sex hormones associated with secondary sexual characters
+  m_text: "\u0926\u094D\u0935\u093F\u0924\u0940\u092F\u0915 \u092F\u094C\u0928 \u0932\u0915\u094D\u0937\u0923\u094B\u0902
+    \u0938\u0947 \u091C\u0941\u0921\u093C\u0947 \u0938\u0947\u0915\u094D\u0938 \u0939\u093E\u0930\u094D\u092E\u094B\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29275,8 +29296,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 51.6
+  m_fontSizeBase: 51.6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -29358,9 +29379,9 @@ RectTransform:
   - {fileID: 978129}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1498184684
@@ -30081,9 +30102,9 @@ RectTransform:
   - {fileID: 1588535863}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1527942805
@@ -30120,7 +30141,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 632, y: 1013}
+  m_AnchoredPosition: {x: 542, y: 66}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1527942807
@@ -30143,10 +30164,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Reproductive health '
+  m_text: "\u092A\u094D\u0930\u091C\u0928\u0928 \u0938\u094D\u0935\u093E\u0938\u094D\u0925\u094D\u092F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30170,8 +30191,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 46.2
+  m_fontSizeBase: 46.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -30700,10 +30721,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Digestive system
+  m_text: "\u092A\u093E\u091A\u0928 \u0924\u0902\u0924\u094D\u0930"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30809,9 +30830,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1791563764}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 596.79095, y: 969.7613}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 421, y: 58}
   m_SizeDelta: {x: 455.6589, y: 50.1989}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1544820673
@@ -31018,9 +31039,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1997129515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 695.4968, y: 981}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 522, y: 70}
   m_SizeDelta: {x: 537.9139, y: 40.833}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1567812885
@@ -31393,9 +31414,9 @@ RectTransform:
   - {fileID: 1603759878}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1582186410
@@ -31782,7 +31803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 631, y: 1027}
+  m_AnchoredPosition: {x: 538, y: 64}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1588535864
@@ -31805,10 +31826,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Female Reproductive System
+  m_text: "\u092E\u0939\u093F\u0932\u093E \u092A\u094D\u0930\u091C\u0928\u0928 \u092A\u094D\u0930\u0923\u093E\u0932\u0940"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31832,8 +31853,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 46.2
+  m_fontSizeBase: 46.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -31946,9 +31967,9 @@ RectTransform:
   - {fileID: 1382308}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1594973221
@@ -32289,7 +32310,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 572, y: 1011}
+  m_AnchoredPosition: {x: 470, y: 58}
   m_SizeDelta: {x: 556.256, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1603759879
@@ -32312,10 +32333,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Body of facial hair
+  m_text: "\u091A\u0947\u0939\u0930\u0947 \u0915\u0947 \u092C\u093E\u0932\u094B\u0902
+    \u0915\u093E \u0936\u0930\u0940\u0930"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -32339,8 +32361,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 39.6
+  m_fontSizeBase: 39.6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -32421,10 +32443,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1865051825}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 319.26907, y: 969.3669}
-  m_SizeDelta: {x: 224.3908, y: 50.5276}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 147, y: 61}
+  m_SizeDelta: {x: 224.39081, y: 50.5276}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1614834491
 MonoBehaviour:
@@ -32802,9 +32824,9 @@ RectTransform:
   - {fileID: 1181346557}
   m_Father: {fileID: 344609329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: -76}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -150, y: 149}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1636179381
@@ -32977,9 +32999,9 @@ RectTransform:
   - {fileID: 854628286}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1651150894
@@ -33014,10 +33036,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1105106610}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 664.1099, y: 974.09717}
-  m_SizeDelta: {x: 511.7582, y: 46.5856}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 492, y: 68}
+  m_SizeDelta: {x: 511.75818, y: 46.5856}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651150896
 MonoBehaviour:
@@ -33389,9 +33411,9 @@ RectTransform:
   - {fileID: 1807334879}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1685088122
@@ -33466,9 +33488,9 @@ RectTransform:
   - {fileID: 2037218839}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1705485873
@@ -33637,9 +33659,9 @@ RectTransform:
   - {fileID: 936578399}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1715575237
@@ -33706,10 +33728,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 803995437}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 595.881, y: 947.9665}
-  m_SizeDelta: {x: 454.9006, y: 68.3613}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 630.93994, y: 42}
+  m_SizeDelta: {x: 628.1838, y: 68.3613}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1718026698
 MonoBehaviour:
@@ -34237,10 +34259,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1639233063}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 332.15872, y: 965.5464}
-  m_SizeDelta: {x: 235.1321, y: 53.7113}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 161, y: 55}
+  m_SizeDelta: {x: 235.13208, y: 53.7113}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1748592081
 MonoBehaviour:
@@ -35428,9 +35450,9 @@ RectTransform:
   - {fileID: 85921067}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1792240088
@@ -35633,7 +35655,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 550, y: 1026}
+  m_AnchoredPosition: {x: 468, y: 65}
   m_SizeDelta: {x: 571.271, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1807334880
@@ -35656,10 +35678,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Estrogen is involved in '
+  m_text: "\u090F\u0938\u094D\u091F\u094D\u0930\u094B\u091C\u0947\u0928 \u0907\u0938\u092E\u0947\u0902
+    \u0936\u093E\u092E\u093F\u0932 \u0939\u0948"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -35683,8 +35706,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 50.1
+  m_fontSizeBase: 50.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -36576,9 +36599,9 @@ RectTransform:
   - {fileID: 802094697}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1869407812
@@ -36613,10 +36636,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 775049023}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 601.387, y: 949.41815}
-  m_SizeDelta: {x: 459.489, y: 67.1514}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 559.2707, y: 42}
+  m_SizeDelta: {x: 568.8813, y: 67.1514}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1869407814
 MonoBehaviour:
@@ -36688,9 +36711,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 37724058}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 238.26021, y: 957.76135}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 69, y: 49}
   m_SizeDelta: {x: 156.8834, y: 60.1989}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873389021
@@ -37063,7 +37086,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 954, y: 991}
+  m_AnchoredPosition: {x: 859, y: 35}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1908218252
@@ -37086,10 +37109,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ovaries
+  m_text: "\u0905\u0902\u0921\u093E\u0936\u092F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -37113,8 +37136,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 49
+  m_fontSizeBase: 49
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -37426,10 +37449,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 231063166}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 313.76135, y: 112.4619}
-  m_SizeDelta: {x: 232.2549, y: 52.0517}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 152, y: -60}
+  m_SizeDelta: {x: 232.25488, y: 52.051697}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1914089011
 MonoBehaviour:
@@ -39856,9 +39879,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1698173635}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 600.48376, y: 120.77736}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 442, y: -49}
   m_SizeDelta: {x: 471.1903, y: 58.9812}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1943993260
@@ -39931,10 +39954,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2088171694}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 648.6023, y: 956.12054}
-  m_SizeDelta: {x: 498.835, y: 61.5663}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 589.1336, y: 48}
+  m_SizeDelta: {x: 593.9463, y: 61.5663}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1946475350
 MonoBehaviour:
@@ -40337,9 +40360,9 @@ RectTransform:
   - {fileID: 1491985041}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1978052719
@@ -40841,7 +40864,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 958, y: 995}
+  m_AnchoredPosition: {x: 872, y: 65}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1992393666
@@ -40864,10 +40887,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Testes '
+  m_text: "\u0935\u0943\u0937\u0923"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -40891,8 +40914,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 57.5
+  m_fontSizeBase: 57.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -40973,9 +40996,9 @@ RectTransform:
   - {fileID: 1317359419}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1997144861
@@ -41010,9 +41033,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1594355956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 861.0921, y: 132.36618}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 702, y: -42}
   m_SizeDelta: {x: 688.3637, y: 68.6385}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1997144863
@@ -41364,9 +41387,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1710953377}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 603.3637, y: 979.2389}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 429, y: 70}
   m_SizeDelta: {x: 461.1364, y: 42.3009}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2009520942
@@ -42260,9 +42283,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1698173635}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 298, y: 109}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 152, y: -68}
   m_SizeDelta: {x: 193.2943, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037218840
@@ -42285,10 +42308,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: which is secreted by the testes
+  m_text: "\u091C\u094B \u0935\u0943\u0937\u0923 \u0926\u094D\u0935\u093E\u0930\u093E
+    \u0938\u094D\u0930\u093E\u0935\u093F\u0924 \u0939\u094B\u0924\u093E \u0939\u0948"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -42312,8 +42336,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 46.5
+  m_fontSizeBase: 46.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -43128,7 +43152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 635, y: 1008}
+  m_AnchoredPosition: {x: 585, y: 52}
   m_SizeDelta: {x: 556.256, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2082336552
@@ -43151,10 +43175,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Increase in height
+  m_text: "\u090A\u0902\u091A\u093E\u0908 \u092E\u0947\u0902 \u0935\u0943\u0926\u094D\u0927\u093F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -43178,8 +43202,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 46.2
+  m_fontSizeBase: 46.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -43293,9 +43317,9 @@ RectTransform:
   - {fileID: 255458718}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2088171693
@@ -43330,9 +43354,9 @@ RectTransform:
   - {fileID: 1382967846}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2094867570
@@ -43649,7 +43673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 623, y: 1018}
+  m_AnchoredPosition: {x: 520, y: 61}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2116951606
@@ -43672,10 +43696,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hormones in other organisms
+  m_text: "\u0905\u0928\u094D\u092F \u091C\u0940\u0935\u094B\u0902 \u092E\u0947\u0902
+    \u0939\u093E\u0930\u094D\u092E\u094B\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -43699,8 +43724,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 44.8
+  m_fontSizeBase: 44.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -43846,9 +43871,9 @@ RectTransform:
   - {fileID: 518877834}
   m_Father: {fileID: 344609329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: -76}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 150, y: 149}
   m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2132595700
@@ -43979,7 +44004,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 555, y: 1017}
+  m_AnchoredPosition: {x: 456, y: 45}
   m_SizeDelta: {x: 646.4807, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2141529381
@@ -44002,10 +44027,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Endocrine glands, hormones and their functioning '
+  m_text: "\u0905\u0902\u0924\u0903\u0938\u094D\u0930\u093E\u0935\u0940 \u0917\u094D\u0930\u0902\u0925\u093F\u092F\u093E\u0902,
+    \u0939\u093E\u0930\u094D\u092E\u094B\u0928 \u0914\u0930 \u0909\u0928\u0915\u0940
+    \u0915\u093E\u0930\u094D\u092F\u092A\u094D\u0930\u0923\u093E\u0932\u0940"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -44029,8 +44056,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 57.3
+  m_fontSizeBase: 57.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -44065,7 +44092,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -77.72882, w: 0}
+  m_margin: {x: 0, y: 0, z: -179.71115, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -44299,10 +44326,10 @@ RectTransform:
   - {fileID: 1578022242466777106}
   m_Father: {fileID: 2663995801411483294}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 284.6, y: 0.70002}
-  m_SizeDelta: {x: 569.2, y: 451.4}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 284.6, y: -225.70001}
+  m_SizeDelta: {x: 569.2, y: 451.40002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &35024963211903593
 MeshRenderer:
@@ -44459,10 +44486,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ovaries
+  m_text: "\u0905\u0902\u0921\u093E\u0936\u092F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -44486,8 +44513,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -47777,10 +47804,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Secondary sexual characters in male and female
+  m_text: "\u092A\u0941\u0930\u0941\u0937 \u0914\u0930 \u092E\u0939\u093F\u0932\u093E
+    \u092E\u0947\u0902 \u0926\u094D\u0935\u093F\u0924\u0940\u092F\u0915 \u092F\u094C\u0928
+    \u0932\u0915\u094D\u0937\u0923"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -47804,8 +47833,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -48272,10 +48301,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Estrogen
+  m_text: "\u090F\u0938\u094D\u091F\u094D\u0930\u094B\u091C\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -48299,8 +48328,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -49144,10 +49173,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Endocrine glands, hormones and  functioning
+  m_text: "\u0905\u0902\u0924\u0903\u0938\u094D\u0930\u093E\u0935\u0940 \u0917\u094D\u0930\u0902\u0925\u093F\u092F\u093E\u0902,
+    \u0939\u093E\u0930\u094D\u092E\u094B\u0928 \u0914\u0930 \u0915\u093E\u0930\u094D\u092F\u092A\u094D\u0930\u0923\u093E\u0932\u0940"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -49171,8 +49201,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -49275,10 +49305,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pancreatic gland
+  m_text: "\u0905\u0917\u094D\u0928\u094D\u092F\u093E\u0936\u092F \u0917\u094D\u0930\u0902\u0925\u093F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -49302,8 +49332,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -50041,10 +50071,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Secondary sexual characters[
+  m_text: "\u092E\u093E\u0927\u094D\u092F\u092E\u093F\u0915 \u092F\u094C\u0928 \u0932\u0915\u094D\u0937\u0923"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50068,8 +50098,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -51791,10 +51821,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2362568573633870514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 805.7273, y: 125.78409}
-  m_SizeDelta: {x: 642.2264, y: 63.1534}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 646, y: -44}
+  m_SizeDelta: {x: 642.2264, y: 63.153397}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2362568573434316704
 GameObject:
@@ -51828,10 +51858,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2362568574687322960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 316.25504, y: 963.6648}
-  m_SizeDelta: {x: 221.8792, y: 55.2793}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 147, y: 52}
+  m_SizeDelta: {x: 221.87921, y: 55.2793}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2362568573434316718
 MonoBehaviour:
@@ -52001,9 +52031,9 @@ RectTransform:
   - {fileID: 2362568574056553215}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2362568573633870517
@@ -52064,7 +52094,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 306, y: 1002}
+  m_AnchoredPosition: {x: 262, y: 47}
   m_SizeDelta: {x: 222.0096, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2362568573802781471
@@ -52087,10 +52117,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Introduction
+  m_text: "\u092A\u0930\u093F\u091A\u092F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -52114,8 +52144,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 55.3
+  m_fontSizeBase: 55.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -52176,10 +52206,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hormones are the chemical substance secreted by the endocrine gland
+  m_text: "\u0939\u093E\u0930\u094D\u092E\u094B\u0928 \u0905\u0902\u0924\u0903\u0938\u094D\u0930\u093E\u0935\u0940
+    \u0917\u094D\u0930\u0902\u0925\u093F \u0926\u094D\u0935\u093E\u0930\u093E \u0938\u094D\u0930\u093E\u0935\u093F\u0924
+    \u0930\u093E\u0938\u093E\u092F\u0928\u093F\u0915 \u092A\u0926\u093E\u0930\u094D\u0925
+    \u0939\u0948\u0902"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -52203,8 +52236,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 43.6
+  m_fontSizeBase: 43.6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -52285,9 +52318,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2362568573633870514}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 261, y: 145}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 113, y: -65}
   m_SizeDelta: {x: 193.2943, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &2362568574687322960
@@ -52306,9 +52339,9 @@ RectTransform:
   - {fileID: 2362568573802781470}
   m_Father: {fileID: 2362568573569311858}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2362568574687322963
@@ -52902,10 +52935,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Structural changes in a body of a female
+  m_text: "\u092E\u0939\u093F\u0932\u093E \u0915\u0947 \u0936\u0930\u0940\u0930 \u092E\u0947\u0902
+    \u0938\u0902\u0930\u091A\u0928\u093E\u0924\u094D\u092E\u0915 \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -52929,8 +52963,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -55061,10 +55095,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hormones in other organisms
+  m_text: "\u0905\u0928\u094D\u092F \u091C\u0940\u0935\u094B\u0902 \u092E\u0947\u0902
+    \u0939\u093E\u0930\u094D\u092E\u094B\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -55088,8 +55123,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -55366,10 +55401,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Adrenal gland
+  m_text: "\u090F\u0921\u094D\u0930\u093F\u0928\u0932 \u0917\u094D\u0930\u0902\u0925\u093F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -55393,8 +55428,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -56612,10 +56647,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thyroid gland
+  m_text: "\u0925\u093E\u0907\u0930\u0949\u092F\u0921 \u0917\u094D\u0930\u0902\u0925\u093F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -56639,8 +56674,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -57808,7 +57843,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 57, y: 47}
+  m_AnchoredPosition: {x: 57, y: 84}
   m_SizeDelta: {x: 160, y: 115.399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4368517574283666627
@@ -59253,10 +59288,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reproductive phases in females
+  m_text: "\u092E\u0939\u093F\u0932\u093E\u0913\u0902 \u092E\u0947\u0902 \u092A\u094D\u0930\u091C\u0928\u0928
+    \u091A\u0930\u0923"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -59280,8 +59316,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -60571,10 +60607,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sex hormones with secondary sexual characters
+  m_text: "\u0926\u094D\u0935\u093F\u0924\u0940\u092F\u0915 \u092F\u094C\u0928 \u0932\u0915\u094D\u0937\u0923\u094B\u0902
+    \u0935\u093E\u0932\u0947 \u0938\u0947\u0915\u094D\u0938 \u0939\u093E\u0930\u094D\u092E\u094B\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -60598,8 +60635,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -63267,10 +63304,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Introduction
+  m_text: "\u092A\u0930\u093F\u091A\u092F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -63294,8 +63331,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -64342,10 +64379,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reproductive health
+  m_text: "\u092A\u094D\u0930\u091C\u0928\u0928 \u0938\u094D\u0935\u093E\u0938\u094D\u0925\u094D\u092F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -64369,8 +64406,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -68490,10 +68527,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Structural Changes in the Body of a Male
+  m_text: "\u092A\u0941\u0930\u0941\u0937 \u0915\u0947 \u0936\u0930\u0940\u0930 \u092E\u0947\u0902
+    \u0938\u0902\u0930\u091A\u0928\u093E\u0924\u094D\u092E\u0915 \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -68517,8 +68555,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -69484,10 +69522,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sex determination in human being
+  m_text: "\u092E\u093E\u0928\u0935 \u092E\u0947\u0902 \u0932\u093F\u0902\u0917 \u0928\u093F\u0930\u094D\u0927\u093E\u0930\u0923"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -69511,8 +69549,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -71307,10 +71345,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Testes
+  m_text: "\u0935\u0943\u0937\u0923"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -71334,8 +71372,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -72984,10 +73022,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Functional changes in the organs
+  m_text: "\u0905\u0902\u0917\u094B\u0902 \u092E\u0947\u0902 \u0915\u093E\u0930\u094D\u092F\u093E\u0924\u094D\u092E\u0915
+    \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -73011,8 +73050,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -73282,10 +73321,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Testosterone
+  m_text: "\u091F\u0947\u0938\u094D\u091F\u094B\u0938\u094D\u091F\u0947\u0930\u094B\u0928"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -73309,8 +73348,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

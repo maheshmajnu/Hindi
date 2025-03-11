@@ -305,9 +305,17 @@ public class Sfx_Chemical_effects_of_electric_current_class_8 : MonoBehaviour
             targetNormalizedTime = -1f; // Reset after use
         }
     }
+    private bool isMuted = false;
 
+    public void ToggleAudio()
+    {
+        isMuted = !isMuted;
+        AudioListener.volume = isMuted ? 0f : 1f;
+        Debug.Log("Audio Muted: " + isMuted);
+    }
     public void _Jump_To1(float value)
     {
+        ToggleAudio();
         RestartSceneWithKeyframe(value);
     }
 

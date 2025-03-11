@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -262,9 +262,9 @@ RectTransform:
   - {fileID: 561349197}
   m_Father: {fileID: 1899686055}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 150, y: 225}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &11554752
@@ -513,10 +513,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 855351184}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 860.5243, y: 970.49994}
-  m_SizeDelta: {x: 675.4368, y: 49.583}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 515.6753, y: -60}
+  m_SizeDelta: {x: 431.8328, y: 49.583}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &51788023
 MonoBehaviour:
@@ -928,10 +928,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: potassium gold cyanide solution
+  m_text: "\u092A\u094B\u091F\u0947\u0936\u093F\u092F\u092E \u0917\u094B\u0932\u094D\u0921
+    \u0938\u093E\u0907\u0928\u093E\u0907\u0921 \u0918\u094B\u0932"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -955,8 +956,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1663,10 +1664,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1454513201}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 175.34839, y: 96}
-  m_SizeDelta: {x: 224.3503, y: 38.75}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 268, y: 46}
+  m_SizeDelta: {x: 224.35028, y: 38.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &170385852
 MonoBehaviour:
@@ -1738,9 +1739,9 @@ RectTransform:
   - {fileID: 423247906}
   m_Father: {fileID: 4999566986352004615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &216279780
@@ -1973,7 +1974,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -4}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &231955742
@@ -1996,10 +1997,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chemical effects of Electric Current
+  m_text: " \u0935\u093F\u0926\u094D\u092F\u0941\u0924 \u0927\u093E\u0930\u093E \u0915\u0947
+    \u0930\u093E\u0938\u093E\u092F\u0928\u093F\u0915 \u092A\u094D\u0930\u092D\u093E\u0935"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2023,8 +2025,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 38.7
+  m_fontSizeBase: 38.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2609,10 +2611,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1701013646}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 729.16003, y: 970.49994}
-  m_SizeDelta: {x: 565.9667, y: 49.583}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 541.09863, y: -61}
+  m_SizeDelta: {x: 453.5489, y: 49.583}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &355670091
 MonoBehaviour:
@@ -2686,9 +2688,9 @@ RectTransform:
   - {fileID: 93490442}
   m_Father: {fileID: 119384430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 150, y: 225}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &376791766
@@ -2845,9 +2847,9 @@ RectTransform:
   - {fileID: 2129766780}
   m_Father: {fileID: 119384430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -150, y: 225}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &385258625
@@ -2997,14 +2999,14 @@ RectTransform:
   m_GameObject: {fileID: 392820457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -9.4}
-  m_LocalScale: {x: 2.6693227, y: 2.6693227, z: 2.6693227}
+  m_LocalScale: {x: 2.6414847, y: 2.6414847, z: 2.6414847}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1701013646}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 278, y: 1016}
+  m_AnchoredPosition: {x: 260, y: -61.000057}
   m_SizeDelta: {x: 180.1332, y: 40.1232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392820459
@@ -3027,12 +3029,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Chemical Effect and Electrolysis
-
-'
+  m_text: "\u0930\u093E\u0938\u093E\u092F\u0928\u093F\u0915 \u092A\u094D\u0930\u092D\u093E\u0935
+    \u0914\u0930 \u0907\u0932\u0947\u0915\u094D\u091F\u094D\u0930\u094B\u0932\u093F\u0938\u093F\u0938"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3514,15 +3515,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 423247905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -254}
+  m_LocalPosition: {x: 0, y: 0, z: -4}
   m_LocalScale: {x: 1.3924361, y: 1.3924361, z: 1.3924361}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 215363737}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 799, y: 90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 730.3, y: 118.2}
   m_SizeDelta: {x: 1034.2004, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &423247907
@@ -3545,11 +3546,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Electroplating is widely used in the industry to coat metal objects with
-    a thin layer of a different metal
+  m_text: "\u0907\u0932\u0947\u0915\u094D\u091F\u094D\u0930\u094B\u092A\u094D\u0932\u0947\u091F\u093F\u0902\u0917
+    \u0915\u093E \u0909\u092A\u092F\u094B\u0917 \u0909\u0926\u094D\u092F\u094B\u0917
+    \u092E\u0947\u0902 \u0935\u094D\u092F\u093E\u092A\u0915 \u0930\u0942\u092A \u0938\u0947
+    \u0927\u093E\u0924\u0941 \u0915\u0940 \u0935\u0938\u094D\u0924\u0941\u0913\u0902
+    \u092A\u0930 \u090F\u0915 \u0905\u0932\u0917 \u0927\u093E\u0924\u0941 \u0915\u0940
+    \u092A\u0924\u0932\u0940 \u092A\u0930\u0924 \u091A\u0922\u093C\u093E\u0928\u0947
+    \u0915\u0947 \u0932\u093F\u090F \u0915\u093F\u092F\u093E \u091C\u093E\u0924\u093E
+    \u0939\u0948"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3573,8 +3580,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 49.1
+  m_fontSizeBase: 49.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3887,9 +3894,9 @@ RectTransform:
   - {fileID: 2101341418}
   m_Father: {fileID: 4999566986352004615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &505314851
@@ -4203,9 +4210,9 @@ RectTransform:
   - {fileID: 1450092791}
   m_Father: {fileID: 4999566986352004615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &520997601
@@ -4478,10 +4485,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Silver
+  m_text: "\u091A\u093E\u0901\u0926\u0940"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4505,8 +4512,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4696,9 +4703,9 @@ RectTransform:
   - {fileID: 926766466}
   m_Father: {fileID: 98968516}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 150, y: 225}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &582278848
@@ -5239,15 +5246,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624676078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -254}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
   m_LocalScale: {x: 1.786217, y: 1.786217, z: 1.786217}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1596953705}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 972, y: 84}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 959.9999, y: 38.6}
   m_SizeDelta: {x: 1034.2004, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &624676080
@@ -5270,11 +5277,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' coating of Zinc is deposited on iron to protect it from corrosion and
-    rusting'
+  m_text: " \u0932\u094B\u0939\u0947 \u0915\u094B \u0938\u0902\u0915\u094D\u0937\u093E\u0930\u0923
+    \u0914\u0930 \u091C\u0902\u0917 \u0932\u0917\u0928\u0947 \u0938\u0947 \u092C\u091A\u093E\u0928\u0947
+    \u0915\u0947 \u0932\u093F\u090F \u0909\u0938 \u092A\u0930 \u091C\u093F\u0902\u0915
+    \u0915\u0940 \u092A\u0930\u0924 \u091A\u0922\u093C\u093E\u0908 \u091C\u093E\u0924\u0940
+    \u0939\u0948"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5298,8 +5308,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 42.7
+  m_fontSizeBase: 42.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5656,9 +5666,9 @@ RectTransform:
   - {fileID: 1925520893}
   m_Father: {fileID: 4999566986352004615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &666970232
@@ -5718,10 +5728,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gold
+  m_text: "\u0938\u094B\u0928\u093E"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5745,8 +5755,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5838,10 +5848,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 658491315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 683.71765, y: 970.49994}
-  m_SizeDelta: {x: 528.098, y: 49.583}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 572.0199, y: -62}
+  m_SizeDelta: {x: 476.4479, y: 49.583}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &717452277
 MonoBehaviour:
@@ -6191,9 +6201,9 @@ RectTransform:
   - {fileID: 1855535586}
   m_Father: {fileID: 1899686055}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -70}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 155}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &787391624
@@ -6405,10 +6415,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Steel
+  m_text: "\u0907\u0938\u094D\u092A\u093E\u0924"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6432,8 +6442,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6509,14 +6519,14 @@ RectTransform:
   m_GameObject: {fileID: 804878782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -9.4}
-  m_LocalScale: {x: 2.2682304, y: 2.2682304, z: 2.2682304}
+  m_LocalScale: {x: 1.8872812, y: 1.8872812, z: 1.8872812}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1795233791}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 220, y: 1020.54205}
+  m_AnchoredPosition: {x: 180.5, y: -46.7}
   m_SizeDelta: {x: 172.2684, y: 37.2756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &804878784
@@ -6539,10 +6549,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chemical effects of electric current
+  m_text: "\u0935\u093F\u0926\u094D\u092F\u0941\u0924 \u0927\u093E\u0930\u093E \u0915\u0947
+    \u0930\u093E\u0938\u093E\u092F\u0928\u093F\u0915 \u092A\u094D\u0930\u092D\u093E\u0935"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6566,8 +6577,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 48.6
+  m_fontSizeBase: 48.6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6970,10 +6981,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 509785661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 895.66797, y: 974.72266}
-  m_SizeDelta: {x: 704.7231, y: 46.0641}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 764.6552, y: -54}
+  m_SizeDelta: {x: 639.4357, y: 46.0641}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &851316494
 MonoBehaviour:
@@ -7045,9 +7056,9 @@ RectTransform:
   - {fileID: 1499919577}
   m_Father: {fileID: 4999566986352004615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &866763403
@@ -7107,10 +7118,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Metal bar
+  m_text: "\u0927\u093E\u0924\u0941 \u092A\u091F\u094D\u091F\u0940"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7134,8 +7145,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7241,10 +7252,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Copper
+  m_text: "\u0924\u093E\u0901\u092C\u093E"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7268,8 +7279,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9583,14 +9594,14 @@ RectTransform:
   m_GameObject: {fileID: 1450092790}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -9.4}
-  m_LocalScale: {x: 2.2682304, y: 2.2682304, z: 2.2682304}
+  m_LocalScale: {x: 1.9674858, y: 1.9674858, z: 1.9674858}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 509785661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 220, y: 1020.54205}
+  m_AnchoredPosition: {x: 200, y: -54.00006}
   m_SizeDelta: {x: 172.2684, y: 37.2756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1450092792
@@ -9613,10 +9624,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Use of chemical effect for silver and gold plating
+  m_text: " \u091A\u093E\u0902\u0926\u0940 \u0914\u0930 \u0938\u094B\u0928\u093E
+    \u091A\u0922\u093C\u093E\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F \u0930\u093E\u0938\u093E\u092F\u0928\u093F\u0915
+    \u092A\u094D\u0930\u092D\u093E\u0935 \u0915\u093E \u0909\u092A\u092F\u094B\u0917"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9640,8 +9653,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 43.7
+  m_fontSizeBase: 43.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9722,9 +9735,9 @@ RectTransform:
   - {fileID: 2000100979}
   m_Father: {fileID: 4999566986352004615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1499919576
@@ -9754,14 +9767,14 @@ RectTransform:
   m_GameObject: {fileID: 1499919576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -9.4}
-  m_LocalScale: {x: 2.6693227, y: 2.6693227, z: 2.6693227}
+  m_LocalScale: {x: 2.3389673, y: 2.3389673, z: 2.3389673}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 855351184}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 278, y: 1016}
+  m_AnchoredPosition: {x: 267.4, y: -60.000057}
   m_SizeDelta: {x: 180.1332, y: 40.1232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1499919578
@@ -9784,10 +9797,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good and bad conductors of electricity
+  m_text: "\u092C\u093F\u091C\u0932\u0940 \u0915\u0947 \u0905\u091A\u094D\u091B\u0947
+    \u0914\u0930 \u092C\u0941\u0930\u0947 \u091A\u093E\u0932\u0915"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9811,8 +9825,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 42.5
+  m_fontSizeBase: 42.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10447,10 +10461,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 481386518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 355.01022, y: 970.49994}
-  m_SizeDelta: {x: 254.1752, y: 49.583}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 225.2016, y: -58}
+  m_SizeDelta: {x: 186.8432, y: 49.583}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1588970146
 MonoBehaviour:
@@ -10522,9 +10536,9 @@ RectTransform:
   - {fileID: 624676079}
   m_Father: {fileID: 4999566986352004615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1599347660
@@ -11126,10 +11140,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 215363737}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 998.9279, y: 96.50001}
-  m_SizeDelta: {x: 803.2267, y: 38.75}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1087.54, y: 88.897705}
+  m_SizeDelta: {x: 910.3435, y: 70.3314}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1654502230
 MonoBehaviour:
@@ -11504,10 +11518,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1795233791}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 672.7517, y: 974.72266}
-  m_SizeDelta: {x: 518.9595, y: 46.0641}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 474.44128, y: -54}
+  m_SizeDelta: {x: 399.3273, y: 46.0641}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1686703914
 MonoBehaviour:
@@ -11579,9 +11593,9 @@ RectTransform:
   - {fileID: 392820458}
   m_Father: {fileID: 4999566986352004615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1725169848
@@ -12098,9 +12112,9 @@ RectTransform:
   - {fileID: 795159709}
   m_Father: {fileID: 98968516}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -70}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 155}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1757689424
@@ -12338,9 +12352,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1596953705}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 870, y: 96}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 960, y: 51}
   m_SizeDelta: {x: 803.2267, y: 38.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1789952695
@@ -12413,9 +12427,9 @@ RectTransform:
   - {fileID: 804878783}
   m_Father: {fileID: 4999566986352004615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1821004855
@@ -12452,9 +12466,9 @@ RectTransform:
   - {fileID: 866763404}
   m_Father: {fileID: 98968516}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -150, y: 225}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1821004857
@@ -12845,10 +12859,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: chromium bar
+  m_text: "\u0915\u094D\u0930\u094B\u092E\u093F\u092F\u092E \u092C\u093E\u0930"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12872,8 +12886,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13363,14 +13377,14 @@ RectTransform:
   m_GameObject: {fileID: 1925520892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -9.4}
-  m_LocalScale: {x: 2.6693227, y: 2.6693227, z: 2.6693227}
+  m_LocalScale: {x: 2.4097843, y: 2.4097843, z: 2.4097843}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 658491315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 278, y: 1016}
+  m_AnchoredPosition: {x: 227.7, y: -61.999935}
   m_SizeDelta: {x: 180.1332, y: 40.1232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1925520894
@@ -13393,12 +13407,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Do liquids conduct electricity?
-
-'
+  m_text: "\u0915\u094D\u092F\u093E \u0924\u0930\u0932 \u092A\u0926\u093E\u0930\u094D\u0925
+    \u0935\u093F\u0926\u094D\u092F\u0941\u0924 \u0915\u093E \u0938\u0902\u091A\u093E\u0932\u0928
+    \u0915\u0930\u0924\u0947 \u0939\u0948\u0902?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13506,9 +13520,9 @@ RectTransform:
   - {fileID: 2025985493}
   m_Father: {fileID: 119384430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -70}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 155}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1933796745
@@ -14082,15 +14096,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000100978}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -254}
+  m_LocalPosition: {x: 0, y: 0, z: -25}
   m_LocalScale: {x: 2.2352085, y: 2.2352085, z: 2.2352085}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1454513201}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1233, y: 84}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1174, y: 27.5}
   m_SizeDelta: {x: 1034.2004, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2000100980
@@ -14113,10 +14127,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: electrolysis
+  m_text: " \u0907\u0932\u0947\u0915\u094D\u091F\u094D\u0930\u094B\u0932\u0940\u091C\u093C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14140,8 +14154,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 38.1
+  m_fontSizeBase: 38.1
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14418,10 +14432,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: chromic acid
+  m_text: "\u0915\u094D\u0930\u094B\u092E\u093F\u0915 \u090F\u0938\u093F\u0921"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14445,8 +14459,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -15255,9 +15269,9 @@ RectTransform:
   - {fileID: 666970233}
   m_Father: {fileID: 1899686055}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -150, y: 225}
   m_SizeDelta: {x: 160, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2094035604
@@ -15438,14 +15452,14 @@ RectTransform:
   m_GameObject: {fileID: 2101341417}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -9.4}
-  m_LocalScale: {x: 2.6693227, y: 2.6693227, z: 2.6693227}
+  m_LocalScale: {x: 2.4097579, y: 2.4097579, z: 2.4097579}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 481386518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 278, y: 1016}
+  m_AnchoredPosition: {x: 225, y: -66.8}
   m_SizeDelta: {x: 180.1332, y: 40.1232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2101341419
@@ -15468,10 +15482,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Electroplating
+  m_text: " \u0907\u0932\u0947\u0915\u094D\u091F\u094D\u0930\u094B\u092A\u094D\u0932\u0947\u091F\u093F\u0902\u0917"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15685,10 +15699,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: silver nitrate solution
+  m_text: "\u0938\u093F\u0932\u094D\u0935\u0930 \u0928\u093E\u0907\u091F\u094D\u0930\u0947\u091F
+    \u0918\u094B\u0932"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 401836615376c3748a312f15027587d2, type: 2}
-  m_sharedMaterial: {fileID: -4490161341445297486, guid: 401836615376c3748a312f15027587d2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15712,8 +15727,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -16128,10 +16143,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good and Bad conductors of Electricity
+  m_text: "\u092C\u093F\u091C\u0932\u0940 \u0915\u0947 \u0905\u091A\u094D\u091B\u0947
+    \u0914\u0930 \u092C\u0941\u0930\u0947 \u091A\u093E\u0932\u0915"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16155,8 +16171,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 38
+  m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -16909,8 +16925,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8128274848870263393}
   m_HandleRect: {fileID: 4712400354897924605}
   m_Direction: 2
-  m_Value: 0.99999803
-  m_Size: 0.9033773
+  m_Value: 0.9999988
+  m_Size: 0.90337735
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -17522,10 +17538,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1725169849}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 1725169855}
+        m_TargetAssemblyTypeName: Sfx_Chemical_effects_of_electric_current_class_8,
+          Assembly-CSharp
+        m_MethodName: ToggleAudio
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -18017,10 +18034,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chemical Effect and Electrolysis
+  m_text: "\u0930\u093E\u0938\u093E\u092F\u0928\u093F\u0915 \u092A\u094D\u0930\u092D\u093E\u0935
+    \u0914\u0930 \u0907\u0932\u0947\u0915\u094D\u091F\u094D\u0930\u094B\u0932\u093F\u0938\u093F\u0938"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18044,8 +18062,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 34.6
+  m_fontSizeBase: 34.6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -21892,7 +21910,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -4}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3643472526319279713
@@ -22040,7 +22058,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -6}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3701748271729485793
@@ -22613,10 +22631,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Introduction
+  m_text: "\u092A\u0930\u093F\u091A\u092F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22640,8 +22658,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 38.14
+  m_fontSizeBase: 38.14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -23412,7 +23430,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 3560617213025104998}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.09662255}
+  m_AnchorMin: {x: 0, y: 0.096622534}
   m_AnchorMax: {x: 1, y: 0.99999994}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -24046,10 +24064,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: electrolysis
+  m_text: "\u0907\u0932\u0947\u0915\u094D\u091F\u094D\u0930\u094B\u0932\u0940\u091C\u093C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24123,15 +24141,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4999566984593404043}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -254}
+  m_LocalPosition: {x: 0, y: 0, z: -26}
   m_LocalScale: {x: 2.858579, y: 2.858579, z: 2.858579}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4999566986307637447}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 343, y: 105}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 335.8, y: 30}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4999566984593404043
@@ -24168,9 +24186,9 @@ RectTransform:
   - {fileID: 4999566986453561707}
   m_Father: {fileID: 4999566986352004615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4999566985322596646
@@ -24344,10 +24362,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 4999566986307637447}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 274.9793, y: 118.32007}
-  m_SizeDelta: {x: 199.9364, y: 56.9334}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 240, y: 67}
+  m_SizeDelta: {x: 199.9364, y: 56.933395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4999566986049156435
 GameObject:
@@ -24381,10 +24399,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 4999566985322596645}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 381.4321, y: 950.03375}
-  m_SizeDelta: {x: 276.1934, y: 66.6385}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 217.88913, y: -79}
+  m_SizeDelta: {x: 183.601, y: 66.6385}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4999566986219122133
 GameObject:
@@ -24474,9 +24492,9 @@ RectTransform:
   - {fileID: 4999566984593404042}
   m_Father: {fileID: 4999566986352004615}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -399.99997, y: -224.99998}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4999566986352004608
@@ -24612,10 +24630,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " Introduction\r"
+  m_text: " \u092A\u0930\u093F\u091A\u092F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24639,8 +24657,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -24697,7 +24715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 333, y: 986}
+  m_AnchoredPosition: {x: 372.1, y: -90.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &5002048967994929597
@@ -25049,7 +25067,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -3}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &5213961445714517997
@@ -25365,10 +25383,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Do Liquids conduct Electricity?
+  m_text: "\u0915\u094D\u092F\u093E \u0924\u0930\u0932 \u092A\u0926\u093E\u0930\u094D\u0925
+    \u0935\u093F\u0926\u094D\u092F\u0941\u0924 \u0915\u093E \u0938\u0902\u091A\u093E\u0932\u0928
+    \u0915\u0930\u0924\u0947 \u0939\u0948\u0902?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -25392,8 +25412,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -26253,7 +26273,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 57, y: 47}
+  m_AnchoredPosition: {x: 57, y: 94}
   m_SizeDelta: {x: 160, y: 115.399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!33 &6119147222474414906
@@ -26652,7 +26672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -5}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &6286919782557072271
@@ -27403,10 +27423,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1725169849}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 1725169855}
+        m_TargetAssemblyTypeName: Sfx_Chemical_effects_of_electric_current_class_8,
+          Assembly-CSharp
+        m_MethodName: ToggleAudio
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -29443,10 +29464,10 @@ RectTransform:
   - {fileID: 9074611908530613627}
   m_Father: {fileID: 5544309084890174455}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 284.6, y: 0.70002}
-  m_SizeDelta: {x: 569.2, y: 451.4}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 284.6, y: -225.70001}
+  m_SizeDelta: {x: 569.2, y: 451.40002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &7523273787280068718
 Transform:
@@ -30577,10 +30598,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Electroplating
+  m_text: "\u0907\u0932\u0947\u0915\u094D\u091F\u094D\u0930\u094B\u092A\u094D\u0932\u0947\u091F\u093F\u0902\u0917"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -30604,8 +30625,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 37.9
+  m_fontSizeBase: 37.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -31270,10 +31291,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Use of chemical effect for Silver, Gold Plating
+  m_text: " \u091A\u093E\u0902\u0926\u0940 \u0914\u0930 \u0938\u094B\u0928\u093E
+    \u091A\u0922\u093C\u093E\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F \u0930\u093E\u0938\u093E\u092F\u0928\u093F\u0915
+    \u092A\u094D\u0930\u092D\u093E\u0935 \u0915\u093E \u0909\u092A\u092F\u094B\u0917"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
+  m_sharedMaterial: {fileID: -8623114562987583163, guid: 01d2b2eb6dd4de545aba302052e876ba, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -31297,8 +31320,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 27.3
+  m_fontSizeBase: 27.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -41689,9 +41689,14 @@ MonoBehaviour:
   GreenCheckBox: {fileID: 30186740}
   EmptyCheckBox: {fileID: 30186741}
   objectives:
-  - objective: ' Level 1 : Identify the nature of the liquids and indicators.'
+  - objective: "\u0938\u094D\u0924\u0930 1: \u0924\u0930\u0932 \u092A\u0926\u093E\u0930\u094D\u0925\u094B\u0902
+      \u0914\u0930 \u0938\u0902\u0915\u0947\u0924\u0915\u094B\u0902 \u0915\u0940
+      \u092A\u094D\u0930\u0915\u0943\u0924\u093F \u0915\u0940 \u092A\u0939\u091A\u093E\u0928
+      \u0915\u0930\u0947\u0902\u0964"
     steps:
-    - stepLine: Identify the type of liquid and indicator.
+    - stepLine: "\u0924\u0930\u0932 \u0915\u0947 \u092A\u094D\u0930\u0915\u093E\u0930
+        \u0914\u0930 \u0938\u0902\u0915\u0947\u0924\u0915 \u0915\u0940 \u092A\u0939\u091A\u093E\u0928
+        \u0915\u0930\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls:
@@ -41707,34 +41712,52 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-  - objective: 'Level 2 : Complete the reaction between acid and metal.'
+  - objective: "\u0938\u094D\u0924\u0930 2: \u0905\u092E\u094D\u0932 \u0914\u0930
+      \u0927\u093E\u0924\u0941 \u0915\u0947 \u092C\u0940\u091A \u092A\u094D\u0930\u0924\u093F\u0915\u094D\u0930\u093F\u092F\u093E
+      \u0915\u094B \u092A\u0942\u0930\u093E \u0915\u0930\u0947\u0902\u0964"
     steps:
-    - stepLine: Add Zinc granules to H2So4.
+    - stepLine: "H2So4 \u092E\u0947\u0902 \u091C\u093F\u0902\u0915 \u0915\u0947 \u0915\u0923
+        \u091C\u094B\u0921\u093C\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-    - stepLine: Balance the reactants of this reaction.
+    - stepLine: "\u0907\u0938 \u092A\u094D\u0930\u0924\u093F\u0915\u094D\u0930\u093F\u092F\u093E
+        \u0915\u0947 \u0905\u092D\u093F\u0915\u093E\u0930\u0915\u094B\u0902 \u0915\u094B
+        \u0938\u0902\u0924\u0941\u0932\u093F\u0924 \u0915\u0930\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 3 : Complete the reaction between base and metal.'
+  - objective: "\u0938\u094D\u0924\u0930 3: \u0906\u0927\u093E\u0930 \u0914\u0930
+      \u0927\u093E\u0924\u0941 \u0915\u0947 \u092C\u0940\u091A \u092A\u094D\u0930\u0924\u093F\u0915\u094D\u0930\u093F\u092F\u093E
+      \u0915\u094B \u092A\u0942\u0930\u093E \u0915\u0930\u0947\u0902\u0964"
     steps:
-    - stepLine: Add Zinc granules to Sodium Hydroxide.
+    - stepLine: "\u0938\u094B\u0921\u093F\u092F\u092E \u0939\u093E\u0907\u0921\u094D\u0930\u0949\u0915\u094D\u0938\u093E\u0907\u0921
+        \u092E\u0947\u0902 \u091C\u093F\u0902\u0915 \u0915\u0947 \u0915\u0923 \u092E\u093F\u0932\u093E\u090F\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-    - stepLine: Balance the reactants of this reaction.
+    - stepLine: "\u0907\u0938 \u092A\u094D\u0930\u0924\u093F\u0915\u094D\u0930\u093F\u092F\u093E
+        \u0915\u0947 \u0905\u092D\u093F\u0915\u093E\u0930\u0915\u094B\u0902 \u0915\u094B
+        \u0938\u0902\u0924\u0941\u0932\u093F\u0924 \u0915\u0930\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 4 : Complete the reaction between acid and base.'
+  - objective: "\u0938\u094D\u0924\u0930 4 : \u0905\u092E\u094D\u0932 \u0914\u0930
+      \u0915\u094D\u0937\u093E\u0930 \u0915\u0947 \u092C\u0940\u091A \u0905\u092D\u093F\u0915\u094D\u0930\u093F\u092F\u093E
+      \u092A\u0942\u0930\u094D\u0923 \u0915\u0930\u0947\u0902\u0964"
     steps:
-    - stepLine: Add 2 drops of phenolphthalein and Add 2 drops of phenolphthalein 
-        and Few drops of Hclto Sodium Hydroxide. Sodium Hydroxide.
+    - stepLine: "\u092B\u093F\u0928\u094B\u0932\u092B\u0925\u0947\u0932\u093F\u0928
+        \u0915\u0940 2 \u092C\u0942\u0902\u0926\u0947\u0902 \u0914\u0930 \u0938\u094B\u0921\u093F\u092F\u092E
+        \u0939\u093E\u0907\u0921\u094D\u0930\u094B\u0915\u094D\u0938\u093E\u0907\u0921
+        \u090F\u091A\u0938\u0940\u090F\u0932 \u0915\u0940 \u0915\u0941\u091B \u092C\u0942\u0902\u0926\u0947\u0902
+        \u092E\u093F\u0932\u093E\u090F\u0902\u0964 \u0938\u094B\u0921\u093F\u092F\u092E
+        \u0939\u093E\u0907\u0921\u094D\u0930\u094B\u0915\u094D\u0938\u093E\u0907\u0921\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-    - stepLine: Balance the reactants of this reaction.
+    - stepLine: "\u0907\u0938 \u0905\u092D\u093F\u0915\u094D\u0930\u093F\u092F\u093E
+        \u0915\u0947 \u0905\u092D\u093F\u0915\u093E\u0930\u0915\u094B\u0902 \u0915\u094B
+        \u0938\u0902\u0924\u0941\u0932\u093F\u0924 \u0915\u0930\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls:
@@ -41750,31 +41773,47 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-  - objective: 'Level 5 : Find the nature of the strips.'
+  - objective: "\u0938\u094D\u0924\u0930 5 : \u092A\u091F\u094D\u091F\u093F\u092F\u094B\u0902
+      \u0915\u0940 \u092A\u094D\u0930\u0915\u0943\u0924\u093F \u0915\u093E \u092A\u0924\u093E
+      \u0932\u0917\u093E\u090F\u0902\u0964"
     steps:
-    - stepLine: Identify the Ph value of the strips.
+    - stepLine: "\u092A\u091F\u094D\u091F\u093F\u092F\u094B\u0902 \u0915\u093E Ph
+        \u092E\u093E\u0928 \u092A\u0939\u091A\u093E\u0928\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 6 : Identify the Salt products.'
+  - objective: "\u0938\u094D\u0924\u0930 6: \u0928\u092E\u0915 \u0909\u0924\u094D\u092A\u093E\u0926\u094B\u0902
+      \u0915\u0940 \u092A\u0939\u091A\u093E\u0928 \u0915\u0930\u0947\u0902\u0964"
     steps:
-    - stepLine: Select which are not the products of salt.
+    - stepLine: "\u0909\u0928 \u0909\u0924\u094D\u092A\u093E\u0926\u094B\u0902 \u0915\u093E
+        \u091A\u092F\u0928 \u0915\u0930\u0947\u0902 \u091C\u094B \u0928\u092E\u0915
+        \u0915\u0947 \u0909\u0924\u094D\u092A\u093E\u0926 \u0928\u0939\u0940\u0902
+        \u0939\u0948\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 7 : Complete the reaction between Non-Metal Oxide with base.'
+  - objective: "\u0938\u094D\u0924\u0930 7: \u0917\u0948\u0930-\u0927\u093E\u0924\u0941
+      \u0911\u0915\u094D\u0938\u093E\u0907\u0921 \u0914\u0930 \u092C\u0947\u0938
+      \u0915\u0947 \u092C\u0940\u091A \u092A\u094D\u0930\u0924\u093F\u0915\u094D\u0930\u093F\u092F\u093E
+      \u0915\u094B \u092A\u0942\u0930\u093E \u0915\u0930\u0947\u0902\u0964"
     steps:
-    - stepLine: Supply Co2 to Calcium Hydroxide.
+    - stepLine: "\u0915\u0948\u0932\u094D\u0936\u093F\u092F\u092E \u0939\u093E\u0907\u0921\u094D\u0930\u094B\u0915\u094D\u0938\u093E\u0907\u0921
+        \u0915\u094B Co2 \u0915\u0940 \u0906\u092A\u0942\u0930\u094D\u0924\u093F
+        \u0915\u0930\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-    - stepLine: Balance the reactants of this reaction.
+    - stepLine: "\u0907\u0938 \u0905\u092D\u093F\u0915\u094D\u0930\u093F\u092F\u093E
+        \u0915\u0947 \u0905\u092D\u093F\u0915\u093E\u0930\u0915\u094B\u0902 \u0915\u094B
+        \u0938\u0902\u0924\u0941\u0932\u093F\u0924 \u0915\u0930\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 8 : Make the bulb glow.'
+  - objective: "\u0938\u094D\u0924\u0930 8: \u092C\u0932\u094D\u092C \u0915\u094B
+      \u091A\u092E\u0915\u093E\u090F\u0902\u0964"
     steps:
-    - stepLine: Add the right solution into the beaker in correct order.
+    - stepLine: "\u0938\u0939\u0940 \u0915\u094D\u0930\u092E \u092E\u0947\u0902 \u0938\u0939\u0940
+        \u0918\u094B\u0932 \u092C\u0940\u0915\u0930 \u092E\u0947\u0902 \u0921\u093E\u0932\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []

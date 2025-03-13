@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -47376,9 +47376,14 @@ MonoBehaviour:
   GreenCheckBox: {fileID: 1108043892}
   EmptyCheckBox: {fileID: 293754168}
   objectives:
-  - objective: 'Level 1 : Restore consistent lighting by understanding electric current.'
+  - objective: "\u0938\u094D\u0924\u0930 1: \u0935\u093F\u0926\u094D\u092F\u0941\u0924
+      \u092A\u094D\u0930\u0935\u093E\u0939 \u0915\u094B \u0938\u092E\u091D\u0915\u0930
+      \u0932\u0917\u093E\u0924\u093E\u0930 \u092A\u094D\u0930\u0915\u093E\u0936 \u0935\u094D\u092F\u0935\u0938\u094D\u0925\u093E
+      \u092C\u0939\u093E\u0932 \u0915\u0930\u0947\u0902\u0964"
     steps:
-    - stepLine: Find the loose and broken connection and fix it
+    - stepLine: "\u0922\u0940\u0932\u0947 \u0914\u0930 \u091F\u0942\u091F\u0947 \u0939\u0941\u090F
+        \u0915\u0928\u0947\u0915\u094D\u0936\u0928 \u0915\u094B \u0922\u0942\u0902\u0922\u0947\u0902
+        \u0914\u0930 \u0909\u0938\u0947 \u0920\u0940\u0915 \u0915\u0930\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls:
@@ -47394,87 +47399,130 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-    - stepLine: Answer the question to open the lift door
+    - stepLine: "\u0932\u093F\u092B\u094D\u091F \u0915\u093E \u0926\u0930\u0935\u093E\u091C\u093C\u093E
+        \u0916\u094B\u0932\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F \u092A\u094D\u0930\u0936\u094D\u0928
+        \u0915\u093E \u0909\u0924\u094D\u0924\u0930 \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 2 : Connect the circuit correctly. '
+  - objective: "\u0938\u094D\u0924\u0930 2: \u0938\u0930\u094D\u0915\u093F\u091F
+      \u0915\u094B \u0938\u0939\u0940 \u0922\u0902\u0917 \u0938\u0947 \u0915\u0928\u0947\u0915\u094D\u091F
+      \u0915\u0930\u0947\u0902\u0964"
     steps:
-    - stepLine: Collect the components of circuit and place at right place.
+    - stepLine: "\u0938\u0930\u094D\u0915\u093F\u091F \u0915\u0947 \u0918\u091F\u0915\u094B\u0902
+        \u0915\u094B \u0907\u0915\u091F\u094D\u0920\u093E \u0915\u0930\u0947\u0902
+        \u0914\u0930 \u0938\u0939\u0940 \u0938\u094D\u0925\u093E\u0928 \u092A\u0930
+        \u0930\u0916\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-    - stepLine: Answer the question to go the Basement
+    - stepLine: "\u092C\u0947\u0938\u092E\u0947\u0902\u091F \u092E\u0947\u0902 \u091C\u093E\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u092A\u094D\u0930\u0936\u094D\u0928 \u0915\u093E
+        \u0909\u0924\u094D\u0924\u0930 \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: ' Level 3 : Potential Difference'
+  - objective: "\u0938\u094D\u0924\u0930 3 : \u0938\u0902\u092D\u093E\u0935\u093F\u0924
+      \u0905\u0902\u0924\u0930"
     steps:
-    - stepLine: Answer the question to open the door
+    - stepLine: "\u0926\u0930\u0935\u093E\u091C\u093C\u093E \u0916\u094B\u0932\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u092A\u094D\u0930\u0936\u094D\u0928 \u0915\u093E
+        \u0909\u0924\u094D\u0924\u0930 \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 4 : Ohm''s Law'
+  - objective: "\u0938\u094D\u0924\u0930 4 : \u0913\u092E \u0915\u093E \u0928\u093F\u092F\u092E"
     steps:
-    - stepLine: Answer the question to open the door
+    - stepLine: "\u0926\u0930\u0935\u093E\u091C\u093C\u093E \u0916\u094B\u0932\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u092A\u094D\u0930\u0936\u094D\u0928 \u0915\u093E
+        \u0909\u0924\u094D\u0924\u0930 \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 5 : Simple Circuit with a Resistor '
+  - objective: "\u0938\u094D\u0924\u0930 5 : \u092A\u094D\u0930\u0924\u093F\u0930\u094B\u0927\u0915
+      \u0915\u0947 \u0938\u093E\u0925 \u0938\u0930\u0932 \u0938\u0930\u094D\u0915\u093F\u091F"
     steps:
-    - stepLine: Answer the question to open the door
+    - stepLine: "\u0926\u0930\u0935\u093E\u091C\u093C\u093E \u0916\u094B\u0932\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u092A\u094D\u0930\u0936\u094D\u0928 \u0915\u093E
+        \u0909\u0924\u094D\u0924\u0930 \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 6 : Simple Circuit with a Resistor '
+  - objective: "\u0938\u094D\u0924\u0930 6 : \u092A\u094D\u0930\u0924\u093F\u0930\u094B\u0927\u0915
+      \u0915\u0947 \u0938\u093E\u0925 \u0938\u0930\u0932 \u0938\u0930\u094D\u0915\u093F\u091F"
     steps:
-    - stepLine: Answer the question to open the door
+    - stepLine: "\u0926\u0930\u0935\u093E\u091C\u093C\u093E \u0916\u094B\u0932\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u092A\u094D\u0930\u0936\u094D\u0928 \u0915\u093E
+        \u0909\u0924\u094D\u0924\u0930 \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: ' Level 7 : Multiple Resistors in Series'
+  - objective: "\u0938\u094D\u0924\u0930 7 : \u0936\u094D\u0930\u0943\u0902\u0916\u0932\u093E
+      \u092E\u0947\u0902 \u090F\u0915\u093E\u0927\u093F\u0915 \u092A\u094D\u0930\u0924\u093F\u0930\u094B\u0927\u0915"
     steps:
-    - stepLine: Answer the question to open the door
+    - stepLine: "\u0926\u0930\u0935\u093E\u091C\u093C\u093E \u0916\u094B\u0932\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u092A\u094D\u0930\u0936\u094D\u0928 \u0915\u093E
+        \u0909\u0924\u094D\u0924\u0930 \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 8 : Multiple Resistors in Parallel'
+  - objective: "\u0938\u094D\u0924\u0930 8 : \u0938\u092E\u093E\u0928\u093E\u0902\u0924\u0930
+      \u092E\u0947\u0902 \u0915\u0908 \u092A\u094D\u0930\u0924\u093F\u0930\u094B\u0927\u0915"
     steps:
-    - stepLine: Answer the question to open the door
+    - stepLine: "\u0926\u0930\u0935\u093E\u091C\u093C\u093E \u0916\u094B\u0932\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u092A\u094D\u0930\u0936\u094D\u0928 \u0915\u093E
+        \u0909\u0924\u094D\u0924\u0930 \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-    - stepLine: Go through the door that has correct formula
+    - stepLine: "\u0909\u0938 \u0926\u0930\u0935\u093E\u091C\u0947 \u0938\u0947 \u091C\u093E\u0913
+        \u091C\u093F\u0938\u092E\u0947\u0902 \u0938\u0939\u0940 \u092B\u093E\u0930\u094D\u092E\u0942\u0932\u093E
+        \u0939\u0948"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 9 : Resistance of a System of Resistors'
+  - objective: "\u0938\u094D\u0924\u0930 9 : \u092A\u094D\u0930\u0924\u093F\u0930\u094B\u0927\u0915\u094B\u0902
+      \u0915\u0940 \u090F\u0915 \u092A\u094D\u0930\u0923\u093E\u0932\u0940 \u0915\u093E
+      \u092A\u094D\u0930\u0924\u093F\u0930\u094B\u0927"
     steps:
-    - stepLine: Answer the question to open the door
+    - stepLine: "\u0926\u0930\u0935\u093E\u091C\u093C\u093E \u0916\u094B\u0932\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u092A\u094D\u0930\u0936\u094D\u0928 \u0915\u093E
+        \u0909\u0924\u094D\u0924\u0930 \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 10 : Heating Effect of Electric Current '
+  - objective: "\u0938\u094D\u0924\u0930 10 : \u0935\u093F\u0926\u094D\u092F\u0941\u0924
+      \u0927\u093E\u0930\u093E \u0915\u093E \u0924\u093E\u092A\u0940\u092F \u092A\u094D\u0930\u092D\u093E\u0935"
     steps:
-    - stepLine: Answer the question to open the door
+    - stepLine: "\u0926\u0930\u0935\u093E\u091C\u093C\u093E \u0916\u094B\u0932\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u092A\u094D\u0930\u0936\u094D\u0928 \u0915\u093E
+        \u0909\u0924\u094D\u0924\u0930 \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: ' Level 11 : Electric Power'
+  - objective: "\u0938\u094D\u0924\u0930 11 : \u0935\u093F\u0926\u094D\u092F\u0941\u0924
+      \u0936\u0915\u094D\u0924\u093F"
     steps:
-    - stepLine: Answer the question to open the door
+    - stepLine: "\u0926\u0930\u0935\u093E\u091C\u093C\u093E \u0916\u094B\u0932\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u092A\u094D\u0930\u0936\u094D\u0928 \u0915\u093E
+        \u0909\u0924\u094D\u0924\u0930 \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 12 :  Calculating Power Using Resistance and Current'
+  - objective: "\u0938\u094D\u0924\u0930 12 : \u092A\u094D\u0930\u0924\u093F\u0930\u094B\u0927
+      \u0914\u0930 \u0927\u093E\u0930\u093E \u0915\u093E \u0909\u092A\u092F\u094B\u0917
+      \u0915\u0930\u0915\u0947 \u0936\u0915\u094D\u0924\u093F \u0915\u0940 \u0917\u0923\u0928\u093E
+      \u0915\u0930\u0928\u093E"
     steps:
-    - stepLine: 'Answer the question  '
+    - stepLine: "\u0938\u0935\u093E\u0932 \u0915\u093E \u091C\u0935\u093E\u092C \u0926\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 13 : Electric Potential '
+  - objective: "\u0938\u094D\u0924\u0930 13 : \u0935\u093F\u0926\u094D\u092F\u0941\u0924
+      \u0915\u094D\u0937\u092E\u0924\u093E"
     steps:
-    - stepLine: Set the electric potential to 8
+    - stepLine: "\u0935\u093F\u0926\u094D\u092F\u0941\u0924 \u0935\u093F\u092D\u0935
+        \u0915\u094B 8 \u092A\u0930 \u0938\u0947\u091F \u0915\u0930\u0947\u0902"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []

@@ -479,10 +479,18 @@ public class sfx_matter_in_our_Surroundings : MonoBehaviour
 
     // Static variable to store the normalized time across scene reloads
     private static float targetNormalizedTime = -1f;
+    private bool isMuted = false;
 
+    public void ToggleAudio()
+    {
+        isMuted = !isMuted;
+        AudioListener.volume = isMuted ? 0f : 1f;
+        Debug.Log("Audio Muted: " + isMuted);
+    }
 
     public void _Jump_To1(float value)
     {
+        ToggleAudio();
         RestartSceneWithKeyframe(value);
     }
 

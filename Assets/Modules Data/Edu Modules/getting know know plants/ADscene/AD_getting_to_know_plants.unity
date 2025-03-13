@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4480217, g: 0.49547756, b: 0.5623126, a: 1}
+  m_IndirectSpecularColor: {r: 0.4507122, g: 0.498811, b: 0.56493014, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -67435,15 +67435,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[0].objective
-      value: 'Level 1 : Collect Herbs and shrubs to make medicine.'
+      value: "\u0938\u094D\u0924\u0930 1: \u0926\u0935\u093E \u092C\u0928\u093E\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u091C\u0921\u093C\u0940-\u092C\u0942\u091F\u093F\u092F\u093E\u0901
+        \u0914\u0930 \u091D\u093E\u0921\u093C\u093F\u092F\u093E\u0901 \u0907\u0915\u091F\u094D\u0920\u093E
+        \u0915\u0930\u0947\u0902\u0964"
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[1].objective
-      value: 'Level 2 : Survive in the room by preparing food. [Photosynthesis]'
+      value: "\u0938\u094D\u0924\u0930 2: \u0916\u093E\u0928\u093E \u092C\u0928\u093E\u0915\u0930
+        \u0915\u092E\u0930\u0947 \u092E\u0947\u0902 \u0930\u0939\u0928\u093E\u0964
+        [\u092A\u094D\u0930\u0915\u093E\u0936 \u0938\u0902\u0936\u094D\u0932\u0947\u0937\u0923]"
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[2].objective
-      value: 'Level 3 : Reach the end safely to exit.'
+      value: "\u0938\u094D\u0924\u0930 3: \u092C\u093E\u0939\u0930 \u0928\u093F\u0915\u0932\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u0938\u0941\u0930\u0915\u094D\u0937\u093F\u0924
+        \u0930\u0942\u092A \u0938\u0947 \u0905\u0902\u0924 \u0924\u0915 \u092A\u0939\u0941\u0901\u091A\u0947\u0902\u0964 "
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[0].steps.Array.size
@@ -67459,11 +67466,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[0].steps.Array.data[0].stepLine
-      value: Go into the village and find a seller.
+      value: "\u0917\u093E\u0902\u0935 \u092E\u0947\u0902 \u091C\u093E\u0913 \u0914\u0930
+        \u090F\u0915 \u0935\u093F\u0915\u094D\u0930\u0947\u0924\u093E \u0922\u0942\u0902\u0922\u094B\u0964"
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[0].steps.Array.data[1].stepLine
-      value: Buy herbs and shrubs and exit the Village.
+      value: "\u091C\u0921\u093C\u0940-\u092C\u0942\u091F\u093F\u092F\u093E\u0901
+        \u0914\u0930 \u091D\u093E\u0921\u093C\u093F\u092F\u093E\u0901 \u0916\u0930\u0940\u0926\u0947\u0902
+        \u0914\u0930 \u0917\u093E\u0901\u0935 \u0938\u0947 \u092C\u093E\u0939\u0930
+        \u0928\u093F\u0915\u0932\u0947\u0902\u0964"
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[0].steps.Array.data[2].stepLine
@@ -67475,32 +67486,53 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[1].steps.Array.data[0].stepLine
-      value: Drop Herbs and Shurbs in respective area
+      value: "\u0938\u0902\u092C\u0902\u0927\u093F\u0924 \u0915\u094D\u0937\u0947\u0924\u094D\u0930
+        \u092E\u0947\u0902 \u091C\u0921\u093C\u0940-\u092C\u0942\u091F\u093F\u092F\u093E\u0901
+        \u0914\u0930 \u091D\u093E\u0921\u093C\u093F\u092F\u093E\u0901 \u0917\u093F\u0930\u093E\u090F\u0901 "
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[1].steps.Array.data[1].stepLine
-      value: Arrange the pipes in order to let the water flow.
+      value: " \u092A\u093E\u0928\u0940 \u0915\u094B \u092C\u0939\u0928\u0947 \u0926\u0947\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u092A\u093E\u0907\u092A\u094B\u0902 \u0915\u094B
+        \u0935\u094D\u092F\u0935\u0938\u094D\u0925\u093F\u0924 \u0915\u0930\u0947\u0902\u0964 "
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[1].steps.Array.data[2].stepLine
-      value: Find a rock and break the mirror to let sunlight in.
+      value: " \u090F\u0915 \u091A\u091F\u094D\u091F\u093E\u0928 \u0922\u0942\u0901\u0922\u093C\u0947\u0902
+        \u0914\u0930 \u0926\u0930\u094D\u092A\u0923 \u0915\u094B \u0924\u094B\u0921\u093C\u0947\u0902
+        \u0924\u093E\u0915\u093F \u0938\u0942\u0930\u091C \u0915\u0940 \u0930\u094B\u0936\u0928\u0940
+        \u0905\u0902\u0926\u0930 \u0906 \u0938\u0915\u0947\u0964"
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[1].steps.Array.data[3].stepLine
-      value: Wear a safety mask and release carbon dioxide into the room.
+      value: "\u0938\u0941\u0930\u0915\u094D\u0937\u093E \u092E\u093E\u0938\u094D\u0915
+        \u092A\u0939\u0928\u0947\u0902 \u0914\u0930 \u0915\u092E\u0930\u0947 \u092E\u0947\u0902
+        \u0915\u093E\u0930\u094D\u092C\u0928 \u0921\u093E\u0907\u0911\u0915\u094D\u0938\u093E\u0907\u0921
+        \u091B\u094B\u0921\u093C\u0947\u0902\u0964 "
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[1].steps.Array.data[4].stepLine
-      value: Use Time crystal on the plant to speed up the process.
+      value: "\u092A\u094D\u0930\u0915\u094D\u0930\u093F\u092F\u093E \u0915\u094B
+        \u0924\u0947\u091C\u093C \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F
+        \u0938\u0902\u092F\u0902\u0924\u094D\u0930 \u092A\u0930 \u091F\u093E\u0907\u092E
+        \u0915\u094D\u0930\u093F\u0938\u094D\u091F\u0932 \u0915\u093E \u0909\u092A\u092F\u094B\u0917
+        \u0915\u0930\u0947\u0902\u0964"
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[1].steps.Array.data[5].stepLine
-      value: Release Oxygen to breathe freely and exit through portal.
+      value: "\u0938\u094D\u0935\u0924\u0902\u0924\u094D\u0930 \u0930\u0942\u092A
+        \u0938\u0947 \u0938\u093E\u0902\u0938 \u0932\u0947\u0928\u0947 \u0914\u0930
+        \u092A\u094B\u0930\u094D\u091F\u0932 \u0915\u0947 \u092E\u093E\u0927\u094D\u092F\u092E
+        \u0938\u0947 \u092C\u093E\u0939\u0930 \u0928\u093F\u0915\u0932\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u0911\u0915\u094D\u0938\u0940\u091C\u0928
+        \u091B\u094B\u0921\u093C\u0947\u0902\u0964 "
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[2].steps.Array.data[0].stepLine
-      value: Get to the top of the plant by using transpiration of leaves tp climb
-        up
+      value: "\u0935\u093E\u0937\u094D\u092A\u094B\u0924\u094D\u0938\u0930\u094D\u091C\u0928
+        \u0938\u0947 \u092C\u091A\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F \u092A\u0924\u094D\u0924\u0940
+        \u0915\u0940 \u0936\u093F\u0930\u093E\u0913\u0902 \u0935\u093E\u0932\u0940
+        \u0917\u0932\u0940 \u092E\u0947\u0902 \u091C\u093E\u090F\u0901\u0964"
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[2].steps.Array.data[1].stepLine

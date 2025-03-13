@@ -79760,9 +79760,12 @@ MonoBehaviour:
   GreenCheckBox: {fileID: 846932058}
   EmptyCheckBox: {fileID: 846932059}
   objectives:
-  - objective: 'Level 1 : Remove rotten tomatoes by hand picking'
+  - objective: "\u0938\u094D\u0924\u0930 1: \u0938\u0921\u093C\u0947 \u0939\u0941\u090F
+      \u091F\u092E\u093E\u091F\u0930\u094B\u0902 \u0915\u094B \u0939\u093E\u0925
+      \u0938\u0947 \u091A\u0941\u0928\u0915\u0930 \u0939\u091F\u093E \u0926\u0947\u0902 "
     steps:
-    - stepLine: Collect tomatoes from the field.
+    - stepLine: "\u0916\u0947\u0924 \u0938\u0947 \u091F\u092E\u093E\u091F\u0930 \u0907\u0915\u091F\u094D\u0920\u093E
+        \u0915\u0930\u0947\u0902\u0964 "
       stepEvent:
         m_PersistentCalls:
           m_Calls:
@@ -79778,7 +79781,10 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-    - stepLine: Put the tomatoes in basket and pick out rotten ones.
+    - stepLine: "\u091F\u092E\u093E\u091F\u0930\u094B\u0902 \u0915\u094B \u091F\u094B\u0915\u0930\u0940
+        \u092E\u0947\u0902 \u0930\u0916\u0947\u0902 \u0914\u0930 \u0938\u0921\u093C\u0947
+        \u0939\u0941\u090F \u091F\u092E\u093E\u091F\u0930\u094B\u0902 \u0915\u094B
+        \u0928\u093F\u0915\u093E\u0932 \u0932\u0947\u0902\u0964 "
       stepEvent:
         m_PersistentCalls:
           m_Calls:
@@ -79794,51 +79800,74 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 0
             m_CallState: 2
-  - objective: 'Level 2 : Prepare butter from machine'
+  - objective: "\u0938\u094D\u0924\u0930 2: \u092E\u0936\u0940\u0928 \u0938\u0947
+      \u092E\u0915\u094D\u0916\u0928 \u0924\u0948\u092F\u093E\u0930 \u0915\u0930\u0947\u0902"
     steps:
-    - stepLine: Go to churning factory and churn the butter.
+    - stepLine: " \u092E\u0902\u0925\u0928 \u0915\u093E\u0930\u0916\u093E\u0928\u0947
+        \u092E\u0947\u0902 \u091C\u093E\u0913 \u0914\u0930 \u092E\u0915\u094D\u0916\u0928
+        \u0915\u094B \u092E\u0925\u094B\u0964 "
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-    - stepLine: Filter the butter.
+    - stepLine: " \u092E\u0915\u094D\u0916\u0928 \u0915\u094B \u091B\u093E\u0928
+        \u0932\u0947\u0902."
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 3 : Perform Threshing.'
+  - objective: "\u0938\u094D\u0924\u0930 3: \u0925\u094D\u0930\u0947\u0936\u093F\u0902\u0917
+      \u0915\u0930\u0947\u0902\u0964 "
     steps:
-    - stepLine: Go to wheat field and collect wheat bundle.
+    - stepLine: " \u0917\u0947\u0939\u0942\u0902 \u0915\u0947 \u0916\u0947\u0924
+        \u092E\u0947\u0902 \u091C\u093E\u0913 \u0914\u0930 \u0917\u0947\u0939\u0942\u0902
+        \u0915\u093E \u0917\u091F\u094D\u0920\u0930 \u0907\u0915\u091F\u094D\u0920\u093E
+        \u0915\u0930\u094B\u0964 "
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-    - stepLine: Hit them on the rock to seperate rice from bundle.
+    - stepLine: " \u092C\u0902\u0921\u0932 \u0938\u0947 \u091A\u093E\u0935\u0932
+        \u0905\u0932\u0917 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F
+        \u0909\u0928\u094D\u0939\u0947\u0902 \u091A\u091F\u094D\u091F\u093E\u0928
+        \u092A\u0930 \u092E\u093E\u0930\u094B\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 4 : Perform Winnowing.'
+  - objective: "\u0938\u094D\u0924\u0930 4: \u0935\u093F\u0928\u094B\u0907\u0902\u0917
+      \u0928\u093F\u0937\u094D\u092A\u093E\u0926\u093F\u0924 \u0915\u0930\u0947\u0902\u0964 "
     steps:
-    - stepLine: Use winnowing basket to remove dust from rice.
+    - stepLine: "\u091A\u093E\u0935\u0932 \u0938\u0947 \u0927\u0942\u0932 \u0939\u091F\u093E\u0928\u0947
+        \u0915\u0947 \u0932\u093F\u090F \u0935\u093F\u0928\u094B\u0907\u0902\u0917
+        \u092C\u093E\u0938\u094D\u0915\u0947\u091F \u0915\u093E \u0909\u092A\u092F\u094B\u0917
+        \u0915\u0930\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 5 : Perform seiving.'
+  - objective: "\u0938\u094D\u0924\u0930 5: \u0938\u0940\u0935\u093F\u0902\u0917
+      \u0915\u0930\u0947\u0902. "
     steps:
-    - stepLine: Pour the flour onto the sieve and perform sieve.
+    - stepLine: "\u0906\u091F\u0947 \u0915\u094B \u091B\u0932\u0928\u0940 \u092E\u0947\u0902
+        \u0921\u093E\u0932\u093F\u092F\u0947 \u0914\u0930 \u091B\u093E\u0928 \u0932\u0940\u091C\u093F\u092F\u0947. "
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 6 : Purify Water'
+  - objective: "\u0938\u094D\u0924\u0930 6: \u091C\u0932 \u0915\u094B \u0936\u0941\u0926\u094D\u0927
+      \u0915\u0930\u0947\u0902 "
     steps:
-    - stepLine: Wait until dust settles and extract clean water.
+    - stepLine: "\u0927\u0942\u0932 \u091C\u092E\u0928\u0947 \u0924\u0915 \u092A\u094D\u0930\u0924\u0940\u0915\u094D\u0937\u093E
+        \u0915\u0930\u0947\u0902 \u0914\u0930 \u0938\u093E\u092B \u092A\u093E\u0928\u0940
+        \u0928\u093F\u0915\u093E\u0932\u0947\u0902\u0964 "
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 7 : Prepare salt.'
+  - objective: "\u0938\u094D\u0924\u0930 7: \u0928\u092E\u0915 \u0924\u0948\u092F\u093E\u0930
+      \u0915\u0930\u0947\u0902. "
     steps:
-    - stepLine: Collect salt water from lake.
+    - stepLine: "\u091D\u0940\u0932 \u0938\u0947 \u0916\u093E\u0930\u093E \u092A\u093E\u0928\u0940
+        \u090F\u0915\u0924\u094D\u0930\u093F\u0924 \u0915\u0930\u0947\u0902\u0964 "
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-    - stepLine: Extract salt from salt water.
+    - stepLine: " \u0916\u093E\u0930\u0947 \u092A\u093E\u0928\u0940 \u0938\u0947
+        \u0928\u092E\u0915 \u0928\u093F\u0915\u093E\u0932\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []

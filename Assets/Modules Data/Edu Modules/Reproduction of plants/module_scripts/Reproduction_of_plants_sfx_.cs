@@ -475,9 +475,17 @@ public class Reproduction_of_plants_sfx_ : MonoBehaviour
 
     private Animator animator;
 
+    private bool isMuted = false;
 
+    public void ToggleAudio()
+    {
+        isMuted = !isMuted;
+        AudioListener.volume = isMuted ? 0f : 1f;
+        Debug.Log("Audio Muted: " + isMuted);
+    }
     public void _Jump_To1(float value)
     {
+        ToggleAudio();
         animator.Play("camera_anim", 0, value);
     }
 

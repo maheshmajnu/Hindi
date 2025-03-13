@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.77992195, g: 0.85216695, b: 0.9456343, a: 1}
+  m_IndirectSpecularColor: {r: 0.7764407, g: 0.84966177, b: 0.9461935, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8680,7 +8680,6 @@ GameObject:
   - component: {fileID: 747549020}
   - component: {fileID: 747549019}
   - component: {fileID: 747549018}
-  - component: {fileID: 747549021}
   - component: {fileID: 747549022}
   - component: {fileID: 747549024}
   - component: {fileID: 747549023}
@@ -8765,18 +8764,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6971391918127252246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &747549021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 747549017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &747549022
 Animator:
   serializedVersion: 5
@@ -25532,10 +25519,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 747549018}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 747549024}
+        m_TargetAssemblyTypeName: sfx_components_of_foods, Assembly-CSharp
+        m_MethodName: ToggleAudio
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -45677,10 +45664,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 747549018}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 747549024}
+        m_TargetAssemblyTypeName: sfx_components_of_foods, Assembly-CSharp
+        m_MethodName: ToggleAudio
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

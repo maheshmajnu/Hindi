@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -31773,37 +31773,62 @@ MonoBehaviour:
   GreenCheckBox: {fileID: 335263137}
   EmptyCheckBox: {fileID: 335263138}
   objectives:
-  - objective: 'Level 1 : Identify the parts of Human heart.'
+  - objective: "\u092E\u0941\u0916\u094D\u092F \u0909\u0926\u094D\u0926\u0947\u0936\u094D\u092F
+      1: \u092E\u093E\u0928\u0935 \u0939\u0943\u0926\u092F \u0915\u0947 \u092D\u093E\u0917\u094B\u0902
+      \u0915\u094B \u092A\u0939\u091A\u093E\u0928\u0947\u0902\u0964 "
     steps:
-    - stepLine: Drag and drop the parts of human heart in their correct place.
+    - stepLine: "\u092E\u093E\u0928\u0935 \u0939\u0943\u0926\u092F \u0915\u0947 \u0939\u093F\u0938\u094D\u0938\u094B\u0902
+        \u0915\u094B \u0916\u0940\u0902\u091A\u0915\u0930 \u0909\u0928\u0915\u0947
+        \u0938\u0939\u0940 \u0938\u094D\u0925\u093E\u0928 \u092A\u0930 \u091B\u094B\u0921\u093C\u0947\u0902\u0964 "
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 2 : Identify the wat that blood flows in human body.'
+  - objective: " \u092E\u0941\u0916\u094D\u092F \u0909\u0926\u094D\u0926\u0947\u0936\u094D\u092F
+      2: \u092E\u093E\u0928\u0935 \u0936\u0930\u0940\u0930 \u092E\u0947\u0902 \u0930\u0915\u094D\u0924
+      \u0915\u093F\u0938 \u092A\u094D\u0930\u0915\u093E\u0930 \u092A\u094D\u0930\u0935\u093E\u0939\u093F\u0924
+      \u0939\u094B\u0924\u093E \u0939\u0948 \u0907\u0938\u0915\u0940 \u092A\u0939\u091A\u093E\u0928
+      \u0915\u0930\u0928\u093E\u0964 "
     steps:
-    - stepLine: 'Arrange the blocks in the correct order of blood flow in human body. '
+    - stepLine: " \u092E\u093E\u0928\u0935 \u0936\u0930\u0940\u0930 \u092E\u0947\u0902
+        \u0930\u0915\u094D\u0924 \u092A\u094D\u0930\u0935\u093E\u0939 \u0915\u0947
+        \u0938\u0939\u0940 \u0915\u094D\u0930\u092E \u092E\u0947\u0902 \u0905\u0935\u0930\u094B\u0927\u094B\u0902
+        \u0915\u094B \u0935\u094D\u092F\u0935\u0938\u094D\u0925\u093F\u0924 \u0915\u0930\u0947\u0902\u0964"
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 3 : Identify different types of cells in blood.'
+  - objective: "\u092E\u0941\u0916\u094D\u092F \u0909\u0926\u094D\u0926\u0947\u0936\u094D\u092F
+      3: \u0930\u0915\u094D\u0924 \u092E\u0947\u0902 \u0935\u093F\u092D\u093F\u0928\u094D\u0928
+      \u092A\u094D\u0930\u0915\u093E\u0930 \u0915\u0940 \u0915\u094B\u0936\u093F\u0915\u093E\u0913\u0902
+      \u0915\u0940 \u092A\u0939\u091A\u093E\u0928 \u0915\u0930\u0928\u093E\u0964 "
     steps:
-    - stepLine: Select red blood cell.
+    - stepLine: " \u0932\u093E\u0932 \u0930\u0915\u094D\u0924 \u0915\u094B\u0936\u093F\u0915\u093E
+        \u0915\u093E \u091A\u092F\u0928 \u0915\u0930\u0947\u0902\u0964 "
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-    - stepLine: Select white blood cell.
+    - stepLine: " \u0936\u094D\u0935\u0947\u0924 \u0930\u0915\u094D\u0924 \u0915\u094B\u0936\u093F\u0915\u093E
+        \u0915\u093E \u091A\u092F\u0928 \u0915\u0930\u0947\u0902\u0964 "
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 4 : Identify different parts of stethoscope.'
+  - objective: "\u092E\u0941\u0916\u094D\u092F \u0909\u0926\u094D\u0926\u0947\u0936\u094D\u092F
+      4: \u0938\u094D\u091F\u0947\u0925\u094B\u0938\u094D\u0915\u094B\u092A \u0915\u0947
+      \u0935\u093F\u092D\u093F\u0928\u094D\u0928 \u092D\u093E\u0917\u094B\u0902 \u0915\u0940
+      \u092A\u0939\u091A\u093E\u0928 \u0915\u0930\u0947\u0902\u0964"
     steps:
-    - stepLine: what part of stethoscope is this.
+    - stepLine: " \u092F\u0939 \u0938\u094D\u091F\u0947\u0925\u094B\u0938\u094D\u0915\u094B\u092A
+        \u0915\u093E \u0915\u094C\u0928 \u0938\u093E \u092D\u093E\u0917 \u0939\u0948\u0964 "
       stepEvent:
         m_PersistentCalls:
           m_Calls: []
-  - objective: 'Level 5 : Identify different parts of Human Excretory system.'
+  - objective: "\u092E\u0941\u0916\u094D\u092F \u0909\u0926\u094D\u0926\u0947\u0936\u094D\u092F
+      5: \u092E\u093E\u0928\u0935 \u0909\u0924\u094D\u0938\u0930\u094D\u091C\u0928
+      \u0924\u0902\u0924\u094D\u0930 \u0915\u0947 \u0935\u093F\u092D\u093F\u0928\u094D\u0928
+      \u092D\u093E\u0917\u094B\u0902 \u0915\u0940 \u092A\u0939\u091A\u093E\u0928
+      \u0915\u0930\u0928\u093E\u0964 "
     steps:
-    - stepLine: Choose the correct name of the part.
+    - stepLine: " \u092D\u093E\u0917 \u0915\u093E \u0938\u0939\u0940 \u0928\u093E\u092E
+        \u091A\u0941\u0928\u0947\u0902\u0964 "
       stepEvent:
         m_PersistentCalls:
           m_Calls: []

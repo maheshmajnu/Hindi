@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44425532, g: 0.48874915, b: 0.54671836, a: 1}
+  m_IndirectSpecularColor: {r: 0.44694388, g: 0.4920351, b: 0.5492376, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -246,15 +246,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[0].objective
-      value: "Level 1 : Match the electrical components to their respective symbols\_"
+      value: "\u092E\u0941\u0916\u094D\u092F \u0909\u0926\u094D\u0926\u0947\u0936\u094D\u092F
+        1: \u0935\u093F\u0926\u094D\u092F\u0941\u0924 \u0918\u091F\u0915\u094B\u0902
+        \u0915\u094B \u0909\u0928\u0915\u0947 \u0938\u0902\u092C\u0902\u0927\u093F\u0924
+        \u092A\u094D\u0930\u0924\u0940\u0915\u094B\u0902 \u0938\u0947 \u092E\u093F\u0932\u093E\u090F\u0901  "
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[1].objective
-      value: 'Level 2 : Heat the water.'
+      value: "\u092E\u0941\u0916\u094D\u092F \u0909\u0926\u094D\u0926\u0947\u0936\u094D\u092F
+        2: \u092A\u093E\u0928\u0940 \u0917\u0930\u094D\u092E \u0915\u0930\u0947\u0902\u0964 "
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[2].objective
-      value: 'Level 3 : Collect the treasure.'
+      value: "\u092E\u0941\u0916\u094D\u092F \u0909\u0926\u094D\u0926\u0947\u0936\u094D\u092F
+        3: \u0916\u091C\u093E\u0928\u093E \u0907\u0915\u091F\u094D\u0920\u093E \u0915\u0930\u0928\u093E\u0964"
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[0].steps.Array.size
@@ -270,11 +275,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[0].steps.Array.data[0].stepLine
-      value: 'Match the components with diagrams. '
+      value: "\u0918\u091F\u0915\u094B\u0902 \u0915\u094B \u0930\u0947\u0916\u093E\u091A\u093F\u0924\u094D\u0930\u094B\u0902
+        \u0938\u0947 \u092E\u093F\u0932\u093E\u090F\u0901\u0964"
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[1].steps.Array.data[0].stepLine
-      value: Turn on the electrical stove.
+      value: " \u092C\u093F\u091C\u0932\u0940 \u0915\u093E \u0938\u094D\u091F\u094B\u0935
+        \u091A\u093E\u0932\u0942 \u0915\u0930\u0947\u0902\u0964 "
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[1].steps.Array.data[1].stepLine
@@ -282,11 +289,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[2].steps.Array.data[0].stepLine
-      value: Turn on the Electro magnet to get rid of obstacles and reach treasure.
+      value: "\u092C\u093E\u0927\u093E\u0913\u0902 \u0938\u0947 \u091B\u0941\u091F\u0915\u093E\u0930\u093E
+        \u092A\u093E\u0928\u0947 \u0914\u0930 \u0916\u091C\u093E\u0928\u0947 \u0924\u0915
+        \u092A\u0939\u0941\u0902\u091A\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F
+        \u0907\u0932\u0947\u0915\u094D\u091F\u094D\u0930\u094B \u091A\u0941\u0902\u092C\u0915
+        \u091A\u093E\u0932\u0942 \u0915\u0930\u0947\u0902\u0964"
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[2].steps.Array.data[1].stepLine
-      value: Collect the treasure
+      value: "\u092A\u094D\u0930\u0935\u0947\u0936 \u0915\u0947 \u0932\u093F\u090F
+        \u0938\u0939\u0940 \u0915\u092E\u0930\u093E \u091A\u0941\u0928\u0947\u0902\u0964"
       objectReference: {fileID: 0}
     - target: {fileID: 7104391961617516568, guid: 11ad860c95562ec42b80754c677ef742, type: 3}
       propertyPath: objectives.Array.data[0].steps.Array.data[0].stepEvent.m_PersistentCalls.m_Calls.Array.size
